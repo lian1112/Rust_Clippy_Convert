@@ -25,11 +25,10 @@ is_exist = False
 
 
 def print_usage():
-    
-    print 'Convert.py usage:'
-    print '-i: The file to be converted, default is input.txt in current directory'
-    print '-o: The json file to output, default is output.json in current directory'
-    print '-h, Help Message'
+    print('Convert.py usage:')
+    print('-i: The file to be converted, default is input.txt in current directory')
+    print('-o: The json file to output, default is output.json in current directory')
+    print('-h, Help Message')
 	
 def add_event():
     global issue
@@ -56,12 +55,12 @@ if __name__ == "__main__":
 
     try:
         opts, args = getopt.getopt(sys.argv[1:], "hi:o:", )
-    except getopt.GetoptError, err:
-        print str(err)
+    except getopt.GetoptError as err:
+        print(str(err))
         print_usage()
         sys.exit(1)
     except:
-        print "Unknown exception"
+        print("Unknown exception")
         sys.exit(2)
 
     # Parse the command line
@@ -117,10 +116,10 @@ if __name__ == "__main__":
         header["format"] = "cov-import-results input"
         header["version"] = 1
         json_str = {"header": header, "sources": sources_list, "issues": issues_list}
-        
-    except Exception as e:  #捕获除与程序退出sys.exit()相关之外的所有异常
-        print str(e)
-        print "parse log fail!"
+
+    except Exception as e:  # 捕获除与程序退出sys.exit()相关之外的所有异常
+        print(str(e))
+        print("parse log fail!")
         sys.exit()
     finally:
         file_object.close()	

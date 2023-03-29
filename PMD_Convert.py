@@ -13,26 +13,24 @@ issues_list = []
 sources_list = []
 header = {}
 
+
 def print_usage():
-    
-    print 'Convert.py usage:'
-    print '-i: The file to be converted, default is input.txt in current directory'
-    print '-o: The json file to output, default is output.json in current directory'
-    print '-h, Help Message'
-	
-	
+    print('Convert.py usage:')
+    print('-i: The file to be converted, default is input.txt in current directory')
+    print('-o: The json file to output, default is output.json in current directory')
+    print('-h, Help Message')
 
 
 if __name__ == "__main__":
 
     try:
         opts, args = getopt.getopt(sys.argv[1:], "hi:o:", )
-    except getopt.GetoptError, err:
-        print str(err)
+    except getopt.GetoptError as err:
+        print(str(err))
         print_usage()
         sys.exit(1)
     except:
-        print "Unknown exception"
+        print("Unknown exception")
         sys.exit(2)
 
     # Parse the command line
@@ -44,37 +42,36 @@ if __name__ == "__main__":
         elif option == "-h":
             print_usage()
             sys.exit(0)
-		
-		
+
     xmlFilePath = os.path.abspath(input_file)
-    print xmlFilePath 
+    print(xmlFilePath)
     try:
         tree = ET.parse(xmlFilePath)
-        #print "tree type:", type(tree) 
-    
+        # print "tree type:", type(tree)
+
         # 获得根节点
         root = tree.getroot()
-    except Exception as e:  #捕获除与程序退出sys.exit()相关之外的所有异常
-        print "parse test.xml fail!"
+    except Exception as e:  # 捕获除与程序退出sys.exit()相关之外的所有异常
+        print("parse test.xml fail!")
         sys.exit()
-    print "root type:", type(root)   
-    print root.tag, "----", root.attrib
-    
-    #遍历root的下一层
+    print("root type:", type(root))
+    print(root.tag, "----", root.attrib)
+
+    # 遍历root的下一层
     for child in root:
-        #print "visit file tag ----", child.attrib
+        # print "visit file tag ----", child.attrib
         coverity_file_name = child.get("name")
-        #coverity_file_name.replace("\\", "/")
-        #p=os.popen("cd")
-        #prefix = p.read() 
-        prefix =os.getcwd()
-        #print prefix
+        # coverity_file_name.replace("\\", "/")
+        # p=os.popen("cd")
+        # prefix = p.read()
+        prefix = os.getcwd()
+        # print prefix
         #print len(prefix)
         #print coverity_file_name
         prefix = prefix+'\\'
         coverity_file_name = coverity_file_name.replace(prefix, '')
         coverity_file_name = coverity_file_name.replace('\\', '/')
-        print coverity_file_name
+        print(coverity_file_name)
         for violation in child:
             #print "visit violation tag ----", violation.attrib
             #print "visit violation value ----", violation.text
