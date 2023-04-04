@@ -1,0 +1,655 @@
+{
+    "header": {
+        "version": 1,
+        "format": "cov-import-results input"
+    },
+    "sources": [
+        {
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\uri\\parser.rs",
+            "encoding": "ASCII"
+        },
+        {
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\header\\media_type.rs",
+            "encoding": "ASCII"
+        },
+        {
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\tls\\mtls.rs",
+            "encoding": "ASCII"
+        },
+        {
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\uri\\segments.rs",
+            "encoding": "ASCII"
+        },
+        {
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\header\\accept.rs",
+            "encoding": "ASCII"
+        },
+        {
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\accept.rs",
+            "encoding": "ASCII"
+        },
+        {
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\media_type.rs",
+            "encoding": "ASCII"
+        },
+        {
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\uri\\fmt\\formatter.rs",
+            "encoding": "ASCII"
+        },
+        {
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\uri\\mod.rs",
+            "encoding": "ASCII"
+        },
+        {
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\indexed.rs",
+            "encoding": "ASCII"
+        },
+        {
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\header\\header.rs",
+            "encoding": "ASCII"
+        },
+        {
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\header\\mod.rs",
+            "encoding": "ASCII"
+        },
+        {
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\status.rs",
+            "encoding": "ASCII"
+        },
+        {
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\uri\\origin.rs",
+            "encoding": "ASCII"
+        },
+        {
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\method.rs",
+            "encoding": "ASCII"
+        }
+    ],
+    "issues": [
+        {
+            "checker": "clippy::just_underscores_and_digits",
+            "extra": "clippy::just_underscores_and_digits_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\uri\\parser.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::just_underscores_and_digits_tag",
+                    "description": "consider choosing a more descriptive name",
+                    "line": 62
+                }
+            ]
+        },
+        {
+            "checker": "clippy::just_underscores_and_digits",
+            "extra": "clippy::just_underscores_and_digits_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\uri\\parser.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::just_underscores_and_digits_tag",
+                    "description": "consider choosing a more descriptive name",
+                    "line": 106
+                }
+            ]
+        },
+        {
+            "checker": "clippy::just_underscores_and_digits",
+            "extra": "clippy::just_underscores_and_digits_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\uri\\parser.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::just_underscores_and_digits_tag",
+                    "description": "consider choosing a more descriptive name",
+                    "line": 115
+                }
+            ]
+        },
+        {
+            "checker": "clippy::module_inception",
+            "extra": "clippy::module_inception_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\uri\\mod.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::module_inception_tag",
+                    "description": "module has the same name as its containing module",
+                    "line": 4
+                }
+            ]
+        },
+        {
+            "checker": "clippy::declare_interior_mutable_const",
+            "extra": "clippy::declare_interior_mutable_const_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\uri\\origin.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::declare_interior_mutable_const_tag",
+                    "description": "a `const` item should never be interior mutable",
+                    "line": 120
+                }
+            ]
+        },
+        {
+            "checker": "clippy::get_first",
+            "extra": "clippy::get_first_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\uri\\origin.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::get_first_tag",
+                    "description": "accessing first element with `string.as_bytes().get(0)`",
+                    "line": 217
+                }
+            ]
+        },
+        {
+            "checker": "clippy::borrow_deref_ref",
+            "extra": "clippy::borrow_deref_ref_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\uri\\segments.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::borrow_deref_ref_tag",
+                    "description": "deref on an immutable reference",
+                    "line": 223
+                }
+            ]
+        },
+        {
+            "checker": "clippy::needless_borrow",
+            "extra": "clippy::needless_borrow_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\uri\\fmt\\formatter.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::needless_borrow_tag",
+                    "description": "this expression creates a reference which is immediately dereferenced by the compiler",
+                    "line": 360
+                }
+            ]
+        },
+        {
+            "checker": "clippy::needless_borrowed_reference",
+            "extra": "clippy::needless_borrowed_reference_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\header\\media_type.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::needless_borrowed_reference_tag",
+                    "description": "dereferencing a tuple pattern where every element takes a reference",
+                    "line": 536
+                }
+            ]
+        },
+        {
+            "checker": "clippy::if_same_then_else",
+            "extra": "clippy::if_same_then_else_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\header\\accept.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::if_same_then_else_tag",
+                    "description": "this `if` has identical blocks",
+                    "line": 150
+                }
+            ]
+        },
+        {
+            "checker": "clippy::if_same_then_else",
+            "extra": "clippy::if_same_then_else_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\header\\accept.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::if_same_then_else_tag",
+                    "description": "this `if` has identical blocks",
+                    "line": 153
+                }
+            ]
+        },
+        {
+            "checker": "clippy::module_inception",
+            "extra": "clippy::module_inception_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\header\\mod.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::module_inception_tag",
+                    "description": "module has the same name as its containing module",
+                    "line": 6
+                }
+            ]
+        },
+        {
+            "checker": "clippy::match_like_matches_macro",
+            "extra": "clippy::match_like_matches_macro_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\header\\header.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::match_like_matches_macro_tag",
+                    "description": "match expression looks like `matches!` macro",
+                    "line": 93
+                }
+            ]
+        },
+        {
+            "checker": "clippy::should_implement_trait",
+            "extra": "clippy::should_implement_trait_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\header\\header.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::should_implement_trait_tag",
+                    "description": "method `into_iter` can be confused for the standard trait method `std::iter::IntoIterator::into_iter`",
+                    "line": 734
+                }
+            ]
+        },
+        {
+            "checker": "clippy::extra_unused_lifetimes",
+            "extra": "clippy::extra_unused_lifetimes_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\method.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::extra_unused_lifetimes_tag",
+                    "description": "this lifetime isn't used in the impl",
+                    "line": 162
+                }
+            ]
+        },
+        {
+            "checker": "clippy::extra_unused_lifetimes",
+            "extra": "clippy::extra_unused_lifetimes_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\status.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::extra_unused_lifetimes_tag",
+                    "description": "this lifetime isn't used in the impl",
+                    "line": 391
+                }
+            ]
+        },
+        {
+            "checker": "clippy::manual_range_contains",
+            "extra": "clippy::manual_range_contains_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\status.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::manual_range_contains_tag",
+                    "description": "manual `!Range::contains` implementation",
+                    "line": 407
+                }
+            ]
+        },
+        {
+            "checker": "clippy::manual_range_contains",
+            "extra": "clippy::manual_range_contains_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\status.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::manual_range_contains_tag",
+                    "description": "manual `!Range::contains` implementation",
+                    "line": 415
+                }
+            ]
+        },
+        {
+            "checker": "clippy::result_large_err",
+            "extra": "clippy::result_large_err_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\media_type.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::result_large_err_tag",
+                    "description": "the `Err`-variant returned from this function is very large",
+                    "line": 15
+                }
+            ]
+        },
+        {
+            "checker": "clippy::result_large_err",
+            "extra": "clippy::result_large_err_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\media_type.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::result_large_err_tag",
+                    "description": "the `Err`-variant returned from this function is very large",
+                    "line": 30
+                }
+            ]
+        },
+        {
+            "checker": "clippy::result_large_err",
+            "extra": "clippy::result_large_err_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\media_type.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::result_large_err_tag",
+                    "description": "the `Err`-variant returned from this function is very large",
+                    "line": 41
+                }
+            ]
+        },
+        {
+            "checker": "clippy::result_large_err",
+            "extra": "clippy::result_large_err_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\media_type.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::result_large_err_tag",
+                    "description": "the `Err`-variant returned from this function is very large",
+                    "line": 61
+                }
+            ]
+        },
+        {
+            "checker": "clippy::result_large_err",
+            "extra": "clippy::result_large_err_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\accept.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::result_large_err_tag",
+                    "description": "the `Err`-variant returned from this function is very large",
+                    "line": 12
+                }
+            ]
+        },
+        {
+            "checker": "clippy::result_large_err",
+            "extra": "clippy::result_large_err_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\accept.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::result_large_err_tag",
+                    "description": "the `Err`-variant returned from this function is very large",
+                    "line": 33
+                }
+            ]
+        },
+        {
+            "checker": "clippy::result_large_err",
+            "extra": "clippy::result_large_err_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\accept.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::result_large_err_tag",
+                    "description": "the `Err`-variant returned from this function is very large",
+                    "line": 37
+                }
+            ]
+        },
+        {
+            "checker": "clippy::unnecessary_cast",
+            "extra": "clippy::unnecessary_cast_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\indexed.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::unnecessary_cast_tag",
+                    "description": "casting to the same type is unnecessary (`usize` -> `usize`)",
+                    "line": 214
+                }
+            ]
+        },
+        {
+            "checker": "clippy::borrow_deref_ref",
+            "extra": "clippy::borrow_deref_ref_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\indexed.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::borrow_deref_ref_tag",
+                    "description": "deref on an immutable reference",
+                    "line": 215
+                }
+            ]
+        },
+        {
+            "checker": "clippy::unnecessary_cast",
+            "extra": "clippy::unnecessary_cast_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\indexed.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::unnecessary_cast_tag",
+                    "description": "casting to the same type is unnecessary (`usize` -> `usize`)",
+                    "line": 244
+                }
+            ]
+        },
+        {
+            "checker": "clippy::result_large_err",
+            "extra": "clippy::result_large_err_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\uri\\parser.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::result_large_err_tag",
+                    "description": "the `Err`-variant returned from this function is very large",
+                    "line": 34
+                }
+            ]
+        },
+        {
+            "checker": "clippy::result_large_err",
+            "extra": "clippy::result_large_err_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\uri\\parser.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::result_large_err_tag",
+                    "description": "the `Err`-variant returned from this function is very large",
+                    "line": 47
+                }
+            ]
+        },
+        {
+            "checker": "clippy::result_large_err",
+            "extra": "clippy::result_large_err_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\uri\\parser.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::result_large_err_tag",
+                    "description": "the `Err`-variant returned from this function is very large",
+                    "line": 53
+                }
+            ]
+        },
+        {
+            "checker": "clippy::result_large_err",
+            "extra": "clippy::result_large_err_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\uri\\parser.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::result_large_err_tag",
+                    "description": "the `Err`-variant returned from this function is very large",
+                    "line": 59
+                }
+            ]
+        },
+        {
+            "checker": "clippy::result_large_err",
+            "extra": "clippy::result_large_err_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\uri\\parser.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::result_large_err_tag",
+                    "description": "the `Err`-variant returned from this function is very large",
+                    "line": 84
+                }
+            ]
+        },
+        {
+            "checker": "clippy::get_first",
+            "extra": "clippy::get_first_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\uri\\parser.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::get_first_tag",
+                    "description": "accessing first element with `scheme.get(0)`",
+                    "line": 86
+                }
+            ]
+        },
+        {
+            "checker": "clippy::result_large_err",
+            "extra": "clippy::result_large_err_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\uri\\parser.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::result_large_err_tag",
+                    "description": "the `Err`-variant returned from this function is very large",
+                    "line": 94
+                }
+            ]
+        },
+        {
+            "checker": "clippy::result_large_err",
+            "extra": "clippy::result_large_err_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\uri\\parser.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::result_large_err_tag",
+                    "description": "the `Err`-variant returned from this function is very large",
+                    "line": 103
+                }
+            ]
+        },
+        {
+            "checker": "clippy::get_first",
+            "extra": "clippy::get_first_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\uri\\parser.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::get_first_tag",
+                    "description": "accessing first element with `prefix.get(0)`",
+                    "line": 108
+                }
+            ]
+        },
+        {
+            "checker": "clippy::result_large_err",
+            "extra": "clippy::result_large_err_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\uri\\parser.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::result_large_err_tag",
+                    "description": "the `Err`-variant returned from this function is very large",
+                    "line": 133
+                }
+            ]
+        },
+        {
+            "checker": "clippy::result_large_err",
+            "extra": "clippy::result_large_err_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\uri\\parser.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::result_large_err_tag",
+                    "description": "the `Err`-variant returned from this function is very large",
+                    "line": 147
+                }
+            ]
+        },
+        {
+            "checker": "clippy::result_large_err",
+            "extra": "clippy::result_large_err_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\uri\\parser.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::result_large_err_tag",
+                    "description": "the `Err`-variant returned from this function is very large",
+                    "line": 157
+                }
+            ]
+        },
+        {
+            "checker": "clippy::result_large_err",
+            "extra": "clippy::result_large_err_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\uri\\parser.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::result_large_err_tag",
+                    "description": "the `Err`-variant returned from this function is very large",
+                    "line": 169
+                }
+            ]
+        },
+        {
+            "checker": "clippy::result_large_err",
+            "extra": "clippy::result_large_err_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\uri\\parser.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::result_large_err_tag",
+                    "description": "the `Err`-variant returned from this function is very large",
+                    "line": 189
+                }
+            ]
+        },
+        {
+            "checker": "clippy::result_large_err",
+            "extra": "clippy::result_large_err_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\uri\\parser.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::result_large_err_tag",
+                    "description": "the `Err`-variant returned from this function is very large",
+                    "line": 194
+                }
+            ]
+        },
+        {
+            "checker": "clippy::result_large_err",
+            "extra": "clippy::result_large_err_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\parse\\uri\\parser.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::result_large_err_tag",
+                    "description": "the `Err`-variant returned from this function is very large",
+                    "line": 199
+                }
+            ]
+        },
+        {
+            "checker": "clippy::needless_borrow",
+            "extra": "clippy::needless_borrow_extra",
+            "file": "D:\\projects\\coverity_import_3rd_party_scripts\\core\\http\\src\\tls\\mtls.rs",
+            "subcategory": "small-mistakes",
+            "events": [
+                {
+                    "tag": "clippy::needless_borrow_tag",
+                    "description": "this expression creates a reference which is immediately dereferenced by the compiler",
+                    "line": 337
+                }
+            ]
+        }
+    ]
+}

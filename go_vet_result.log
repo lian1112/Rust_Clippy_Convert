@@ -1,0 +1,52 @@
+# golang.org/x/crypto/argon2
+argon2/blamka_amd64.s:203:1: [amd64] mixBlocksSSE2: invalid offset a+24(FP); expected a+8(FP)
+argon2/blamka_amd64.s:226:1: [amd64] xorBlocksSSE2: invalid offset a+24(FP); expected a+8(FP)
+argon2/blamka_amd64.s:204:1: frame pointer is clobbered before saving
+argon2/blamka_amd64.s:227:1: frame pointer is clobbered before saving
+# golang.org/x/crypto/otr
+otr/otr_test.go:407:2: unreachable code
+# golang.org/x/crypto/sha3
+sha3/keccakf_amd64.s:325:1: [amd64] keccakF1600: unknown variable state; offset 0 is a+0(FP)
+# golang.org/x/crypto/ssh/agent
+ssh/agent/client_test.go:369:4: call to (*T).Fatalf from a non-test goroutine
+ssh/agent/server_test.go:57:4: call to (*T).Fatalf from a non-test goroutine
+# golang.org/x/crypto/ssh
+ssh/benchmark_test.go:93:4: call to (*B).Fatalf from a non-test goroutine
+ssh/benchmark_test.go:97:4: call to (*B).Fatalf from a non-test goroutine
+ssh/benchmark_test.go:102:5: call to (*B).Fatalf from a non-test goroutine
+ssh/handshake_test.go:161:5: call to (*T).Fatalf from a non-test goroutine
+ssh/handshake_test.go:352:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:32:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:35:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:39:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:77:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:84:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:105:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:109:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:218:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:221:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:307:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:319:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:324:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:328:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:334:5: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:337:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:346:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:349:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:356:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:393:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:396:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:401:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:412:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:420:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:431:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:437:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:440:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:446:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:449:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:457:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:460:4: call to (*T).Fatalf from a non-test goroutine
+ssh/mux_test.go:467:4: call to (*T).Fatalf from a non-test goroutine
+ssh/session_test.go:39:4: call to (*T).Fatalf from a non-test goroutine
+ssh/session_test.go:653:4: call to (*T).Fatalf from a non-test goroutine
+ssh/session_test.go:665:4: call to (*T).Fatalf from a non-test goroutine

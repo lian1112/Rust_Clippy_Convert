@@ -1,0 +1,1221 @@
+{
+   "header": {
+      "format": "cov-import-results input",
+      "version": 1
+   },
+   "sources": [
+      {
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/argon2/blamka_amd64.s",
+         "encoding": "ASCII"
+      },
+      {
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/otr/otr_test.go",
+         "encoding": "ASCII"
+      },
+      {
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/sha3/keccakf_amd64.s",
+         "encoding": "ASCII"
+      },
+      {
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/agent/client_test.go",
+         "encoding": "ASCII"
+      },
+      {
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/agent/server_test.go",
+         "encoding": "ASCII"
+      },
+      {
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/benchmark_test.go",
+         "encoding": "ASCII"
+      },
+      {
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/handshake_test.go",
+         "encoding": "ASCII"
+      },
+      {
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "encoding": "ASCII"
+      },
+      {
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/session_test.go",
+         "encoding": "ASCII"
+      }
+   ],
+   "issues": [
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/argon2/blamka_amd64.s",
+         "extra": "[amd64] mixBlocksSSE2: invalid offset a+24(FP); expected a+8(FP)",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "[amd64] mixBlocksSSE2: invalid offset a+24(FP); expected a+8(FP)",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/argon2/blamka_amd64.s",
+               "line": 203,
+               "description": "[amd64] mixBlocksSSE2: invalid offset a+24(FP); expected a+8(FP)"
+            }
+         ],
+         "subcategory": "[amd64] mixBlocksSSE2: invalid offset a+24(FP); expected a+8(FP)"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/argon2/blamka_amd64.s",
+         "extra": "[amd64] xorBlocksSSE2: invalid offset a+24(FP); expected a+8(FP)",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "[amd64] xorBlocksSSE2: invalid offset a+24(FP); expected a+8(FP)",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/argon2/blamka_amd64.s",
+               "line": 226,
+               "description": "[amd64] xorBlocksSSE2: invalid offset a+24(FP); expected a+8(FP)"
+            }
+         ],
+         "subcategory": "[amd64] xorBlocksSSE2: invalid offset a+24(FP); expected a+8(FP)"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/argon2/blamka_amd64.s",
+         "extra": "frame pointer is clobbered before saving",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "frame pointer is clobbered before saving",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/argon2/blamka_amd64.s",
+               "line": 204,
+               "description": "frame pointer is clobbered before saving"
+            }
+         ],
+         "subcategory": "frame pointer is clobbered before saving"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/argon2/blamka_amd64.s",
+         "extra": "frame pointer is clobbered before saving",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "frame pointer is clobbered before saving",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/argon2/blamka_amd64.s",
+               "line": 227,
+               "description": "frame pointer is clobbered before saving"
+            }
+         ],
+         "subcategory": "frame pointer is clobbered before saving"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/otr/otr_test.go",
+         "extra": "unreachable code",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "unreachable code",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/otr/otr_test.go",
+               "line": 407,
+               "description": "unreachable code"
+            }
+         ],
+         "subcategory": "unreachable code"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/sha3/keccakf_amd64.s",
+         "extra": "[amd64] keccakF1600: unknown variable state; offset 0 is a+0(FP)",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "[amd64] keccakF1600: unknown variable state; offset 0 is a+0(FP)",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/sha3/keccakf_amd64.s",
+               "line": 325,
+               "description": "[amd64] keccakF1600: unknown variable state; offset 0 is a+0(FP)"
+            }
+         ],
+         "subcategory": "[amd64] keccakF1600: unknown variable state; offset 0 is a+0(FP)"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/agent/client_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/agent/client_test.go",
+               "line": 369,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/agent/server_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/agent/server_test.go",
+               "line": 57,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/benchmark_test.go",
+         "extra": "call to (*B).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*B).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/benchmark_test.go",
+               "line": 93,
+               "description": "call to (*B).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*B).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/benchmark_test.go",
+         "extra": "call to (*B).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*B).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/benchmark_test.go",
+               "line": 97,
+               "description": "call to (*B).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*B).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/benchmark_test.go",
+         "extra": "call to (*B).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*B).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/benchmark_test.go",
+               "line": 102,
+               "description": "call to (*B).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*B).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/handshake_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/handshake_test.go",
+               "line": 161,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/handshake_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/handshake_test.go",
+               "line": 352,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 32,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 35,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 39,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 77,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 84,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 105,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 109,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 218,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 221,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 307,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 319,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 324,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 328,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 334,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 337,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 346,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 349,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 356,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 393,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 396,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 401,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 412,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 420,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 431,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 437,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 440,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 446,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 449,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 457,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 460,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/mux_test.go",
+               "line": 467,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/session_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/session_test.go",
+               "line": 39,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/session_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/session_test.go",
+               "line": 653,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      },
+      {
+         "checker": "Go_Vet",
+         "function": null,
+         "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/session_test.go",
+         "extra": "call to (*T).Fatalf from a non-test goroutine",
+         "properties": {
+            "type": "Go_Vet",
+            "category": "Go_Vet",
+            "impact": "Low",
+            "cwe": null,
+            "longDescription": "call to (*T).Fatalf from a non-test goroutine",
+            "localEffect": "Go_Vet",
+            "issueKind": "QUALITY"
+         },
+         "events": [
+            {
+               "tag": "event",
+               "main": true,
+               "file": "D:\\projects\\coverity_import_3rd_party_scripts/ssh/session_test.go",
+               "line": 665,
+               "description": "call to (*T).Fatalf from a non-test goroutine"
+            }
+         ],
+         "subcategory": "call to (*T).Fatalf from a non-test goroutine"
+      }
+   ]
+}

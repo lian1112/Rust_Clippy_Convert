@@ -1,0 +1,3564 @@
+{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 4,
+                  "byteOffset": 2468,
+                  "endColumn": 13,
+                  "endLine": 62,
+                  "startColumn": 9,
+                  "startLine": 62
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "consider choosing a more descriptive name"
+          },
+          "ruleId": "clippy::just_underscores_and_digits",
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 4,
+                  "byteOffset": 4051,
+                  "endColumn": 13,
+                  "endLine": 106,
+                  "startColumn": 9,
+                  "startLine": 106
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "consider choosing a more descriptive name"
+          },
+          "ruleId": "clippy::just_underscores_and_digits",
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 10,
+                  "byteOffset": 4394,
+                  "endColumn": 19,
+                  "endLine": 115,
+                  "startColumn": 9,
+                  "startLine": 115
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "consider choosing a more descriptive name"
+          },
+          "ruleId": "clippy::just_underscores_and_digits",
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 4,
+                  "byteOffset": 2468,
+                  "endColumn": 13,
+                  "endLine": 62,
+                  "startColumn": 9,
+                  "startLine": 62
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "consider choosing a more descriptive name"
+          },
+          "ruleId": "clippy::just_underscores_and_digits",
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 4,
+                  "byteOffset": 4051,
+                  "endColumn": 13,
+                  "endLine": 106,
+                  "startColumn": 9,
+                  "startLine": 106
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "consider choosing a more descriptive name"
+          },
+          "ruleId": "clippy::just_underscores_and_digits",
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 10,
+                  "byteOffset": 4394,
+                  "endColumn": 19,
+                  "endLine": 115,
+                  "startColumn": 9,
+                  "startLine": 115
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "consider choosing a more descriptive name"
+          },
+          "ruleId": "clippy::just_underscores_and_digits",
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 4,
+                  "byteOffset": 2468,
+                  "endColumn": 13,
+                  "endLine": 62,
+                  "startColumn": 9,
+                  "startLine": 62
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "consider choosing a more descriptive name"
+          },
+          "ruleId": "clippy::just_underscores_and_digits",
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 4,
+                  "byteOffset": 4051,
+                  "endColumn": 13,
+                  "endLine": 106,
+                  "startColumn": 9,
+                  "startLine": 106
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "consider choosing a more descriptive name"
+          },
+          "ruleId": "clippy::just_underscores_and_digits",
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 10,
+                  "byteOffset": 4394,
+                  "endColumn": 19,
+                  "endLine": 115,
+                  "startColumn": 9,
+                  "startLine": 115
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "consider choosing a more descriptive name"
+          },
+          "ruleId": "clippy::just_underscores_and_digits",
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/uri/mod.rs"
+                },
+                "region": {
+                  "byteLength": 8,
+                  "byteOffset": 74,
+                  "endColumn": 9,
+                  "endLine": 4,
+                  "startColumn": 1,
+                  "startLine": 4
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "module has the same name as its containing module"
+          },
+          "ruleId": "clippy::module_inception",
+          "ruleIndex": 1
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/uri/mod.rs"
+                },
+                "region": {
+                  "byteLength": 8,
+                  "byteOffset": 74,
+                  "endColumn": 9,
+                  "endLine": 4,
+                  "startColumn": 1,
+                  "startLine": 4
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "module has the same name as its containing module"
+          },
+          "ruleId": "clippy::module_inception",
+          "ruleIndex": 1
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/uri/mod.rs"
+                },
+                "region": {
+                  "byteLength": 8,
+                  "byteOffset": 74,
+                  "endColumn": 9,
+                  "endLine": 4,
+                  "startColumn": 1,
+                  "startLine": 4
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "module has the same name as its containing module"
+          },
+          "ruleId": "clippy::module_inception",
+          "ruleIndex": 1
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/uri/origin.rs"
+                },
+                "region": {
+                  "byteLength": 63,
+                  "byteOffset": 3485,
+                  "endColumn": 68,
+                  "endLine": 120,
+                  "startColumn": 5,
+                  "startLine": 120
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "a `const` item should never be interior mutable"
+          },
+          "ruleId": "clippy::declare_interior_mutable_const",
+          "ruleIndex": 2
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/uri/origin.rs"
+                },
+                "region": {
+                  "byteLength": 24,
+                  "byteOffset": 7144,
+                  "endColumn": 80,
+                  "endLine": 217,
+                  "startColumn": 56,
+                  "startLine": 217
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "accessing first element with `string.as_bytes().get(0)`"
+          },
+          "ruleId": "clippy::get_first",
+          "ruleIndex": 3
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/uri/origin.rs"
+                },
+                "region": {
+                  "byteLength": 63,
+                  "byteOffset": 3485,
+                  "endColumn": 68,
+                  "endLine": 120,
+                  "startColumn": 5,
+                  "startLine": 120
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "a `const` item should never be interior mutable"
+          },
+          "ruleId": "clippy::declare_interior_mutable_const",
+          "ruleIndex": 2
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/uri/origin.rs"
+                },
+                "region": {
+                  "byteLength": 24,
+                  "byteOffset": 7144,
+                  "endColumn": 80,
+                  "endLine": 217,
+                  "startColumn": 56,
+                  "startLine": 217
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "accessing first element with `string.as_bytes().get(0)`"
+          },
+          "ruleId": "clippy::get_first",
+          "ruleIndex": 3
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/uri/origin.rs"
+                },
+                "region": {
+                  "byteLength": 63,
+                  "byteOffset": 3485,
+                  "endColumn": 68,
+                  "endLine": 120,
+                  "startColumn": 5,
+                  "startLine": 120
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "a `const` item should never be interior mutable"
+          },
+          "ruleId": "clippy::declare_interior_mutable_const",
+          "ruleIndex": 2
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/uri/origin.rs"
+                },
+                "region": {
+                  "byteLength": 24,
+                  "byteOffset": 7144,
+                  "endColumn": 80,
+                  "endLine": 217,
+                  "startColumn": 56,
+                  "startLine": 217
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "accessing first element with `string.as_bytes().get(0)`"
+          },
+          "ruleId": "clippy::get_first",
+          "ruleIndex": 3
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/uri/segments.rs"
+                },
+                "region": {
+                  "byteLength": 9,
+                  "byteOffset": 7273,
+                  "endColumn": 35,
+                  "endLine": 223,
+                  "startColumn": 26,
+                  "startLine": 223
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "deref on an immutable reference"
+          },
+          "ruleId": "clippy::borrow_deref_ref",
+          "ruleIndex": 4
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/uri/segments.rs"
+                },
+                "region": {
+                  "byteLength": 9,
+                  "byteOffset": 7273,
+                  "endColumn": 35,
+                  "endLine": 223,
+                  "startColumn": 26,
+                  "startLine": 223
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "deref on an immutable reference"
+          },
+          "ruleId": "clippy::borrow_deref_ref",
+          "ruleIndex": 4
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/uri/segments.rs"
+                },
+                "region": {
+                  "byteLength": 9,
+                  "byteOffset": 7273,
+                  "endColumn": 35,
+                  "endLine": 223,
+                  "startColumn": 26,
+                  "startLine": 223
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "deref on an immutable reference"
+          },
+          "ruleId": "clippy::borrow_deref_ref",
+          "ruleIndex": 4
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/uri/fmt/formatter.rs"
+                },
+                "region": {
+                  "byteLength": 37,
+                  "byteOffset": 12551,
+                  "endColumn": 48,
+                  "endLine": 360,
+                  "startColumn": 11,
+                  "startLine": 360
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "this expression creates a reference which is immediately dereferenced by the compiler"
+          },
+          "ruleId": "clippy::needless_borrow",
+          "ruleIndex": 5
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/uri/fmt/formatter.rs"
+                },
+                "region": {
+                  "byteLength": 37,
+                  "byteOffset": 12551,
+                  "endColumn": 48,
+                  "endLine": 360,
+                  "startColumn": 11,
+                  "startLine": 360
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "this expression creates a reference which is immediately dereferenced by the compiler"
+          },
+          "ruleId": "clippy::needless_borrow",
+          "ruleIndex": 5
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/uri/fmt/formatter.rs"
+                },
+                "region": {
+                  "byteLength": 37,
+                  "byteOffset": 12551,
+                  "endColumn": 48,
+                  "endLine": 360,
+                  "startColumn": 11,
+                  "startLine": 360
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "this expression creates a reference which is immediately dereferenced by the compiler"
+          },
+          "ruleId": "clippy::needless_borrow",
+          "ruleIndex": 5
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/header/media_type.rs"
+                },
+                "region": {
+                  "byteLength": 19,
+                  "byteOffset": 17323,
+                  "endColumn": 71,
+                  "endLine": 536,
+                  "startColumn": 52,
+                  "startLine": 536
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "dereferencing a tuple pattern where every element takes a reference"
+          },
+          "ruleId": "clippy::needless_borrowed_reference",
+          "ruleIndex": 6
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/header/media_type.rs"
+                },
+                "region": {
+                  "byteLength": 19,
+                  "byteOffset": 17323,
+                  "endColumn": 71,
+                  "endLine": 536,
+                  "startColumn": 52,
+                  "startLine": 536
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "dereferencing a tuple pattern where every element takes a reference"
+          },
+          "ruleId": "clippy::needless_borrowed_reference",
+          "ruleIndex": 6
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/header/media_type.rs"
+                },
+                "region": {
+                  "byteLength": 19,
+                  "byteOffset": 17323,
+                  "endColumn": 71,
+                  "endLine": 536,
+                  "startColumn": 52,
+                  "startLine": 536
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "dereferencing a tuple pattern where every element takes a reference"
+          },
+          "ruleId": "clippy::needless_borrowed_reference",
+          "ruleIndex": 6
+        },
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/header/accept.rs"
+                },
+                "region": {
+                  "byteLength": 125,
+                  "byteOffset": 5107,
+                  "endColumn": 14,
+                  "endLine": 153,
+                  "startColumn": 78,
+                  "startLine": 150
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "this `if` has identical blocks"
+          },
+          "ruleId": "clippy::if_same_then_else",
+          "ruleIndex": 7
+        },
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/header/accept.rs"
+                },
+                "region": {
+                  "byteLength": 201,
+                  "byteOffset": 5294,
+                  "endColumn": 14,
+                  "endLine": 157,
+                  "startColumn": 76,
+                  "startLine": 153
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "this `if` has identical blocks"
+          },
+          "ruleId": "clippy::if_same_then_else",
+          "ruleIndex": 7
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/header/mod.rs"
+                },
+                "region": {
+                  "byteLength": 11,
+                  "byteOffset": 82,
+                  "endColumn": 12,
+                  "endLine": 6,
+                  "startColumn": 1,
+                  "startLine": 6
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "module has the same name as its containing module"
+          },
+          "ruleId": "clippy::module_inception",
+          "ruleIndex": 1
+        },
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/header/accept.rs"
+                },
+                "region": {
+                  "byteLength": 125,
+                  "byteOffset": 5107,
+                  "endColumn": 14,
+                  "endLine": 153,
+                  "startColumn": 78,
+                  "startLine": 150
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "this `if` has identical blocks"
+          },
+          "ruleId": "clippy::if_same_then_else",
+          "ruleIndex": 7
+        },
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/header/accept.rs"
+                },
+                "region": {
+                  "byteLength": 201,
+                  "byteOffset": 5294,
+                  "endColumn": 14,
+                  "endLine": 157,
+                  "startColumn": 76,
+                  "startLine": 153
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "this `if` has identical blocks"
+          },
+          "ruleId": "clippy::if_same_then_else",
+          "ruleIndex": 7
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/header/header.rs"
+                },
+                "region": {
+                  "byteLength": 200,
+                  "byteOffset": 3134,
+                  "endColumn": 14,
+                  "endLine": 97,
+                  "startColumn": 42,
+                  "startLine": 93
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "match expression looks like `matches!` macro"
+          },
+          "ruleId": "clippy::match_like_matches_macro",
+          "ruleIndex": 8
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/header/mod.rs"
+                },
+                "region": {
+                  "byteLength": 11,
+                  "byteOffset": 82,
+                  "endColumn": 12,
+                  "endLine": 6,
+                  "startColumn": 1,
+                  "startLine": 6
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "module has the same name as its containing module"
+          },
+          "ruleId": "clippy::module_inception",
+          "ruleIndex": 1
+        },
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/header/accept.rs"
+                },
+                "region": {
+                  "byteLength": 125,
+                  "byteOffset": 5107,
+                  "endColumn": 14,
+                  "endLine": 153,
+                  "startColumn": 78,
+                  "startLine": 150
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "this `if` has identical blocks"
+          },
+          "ruleId": "clippy::if_same_then_else",
+          "ruleIndex": 7
+        },
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/header/accept.rs"
+                },
+                "region": {
+                  "byteLength": 201,
+                  "byteOffset": 5294,
+                  "endColumn": 14,
+                  "endLine": 157,
+                  "startColumn": 76,
+                  "startLine": 153
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "this `if` has identical blocks"
+          },
+          "ruleId": "clippy::if_same_then_else",
+          "ruleIndex": 7
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/header/header.rs"
+                },
+                "region": {
+                  "byteLength": 200,
+                  "byteOffset": 3134,
+                  "endColumn": 14,
+                  "endLine": 97,
+                  "startColumn": 42,
+                  "startLine": 93
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "match expression looks like `matches!` macro"
+          },
+          "ruleId": "clippy::match_like_matches_macro",
+          "ruleIndex": 8
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/header/header.rs"
+                },
+                "region": {
+                  "byteLength": 252,
+                  "byteOffset": 23683,
+                  "endColumn": 6,
+                  "endLine": 740,
+                  "startColumn": 5,
+                  "startLine": 734
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "method `into_iter` can be confused for the standard trait method `std::iter::IntoIterator::into_iter`"
+          },
+          "ruleId": "clippy::should_implement_trait",
+          "ruleIndex": 9
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/header/mod.rs"
+                },
+                "region": {
+                  "byteLength": 11,
+                  "byteOffset": 82,
+                  "endColumn": 12,
+                  "endLine": 6,
+                  "startColumn": 1,
+                  "startLine": 6
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "module has the same name as its containing module"
+          },
+          "ruleId": "clippy::module_inception",
+          "ruleIndex": 1
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/method.rs"
+                },
+                "region": {
+                  "byteLength": 2,
+                  "byteOffset": 4520,
+                  "endColumn": 12,
+                  "endLine": 162,
+                  "startColumn": 10,
+                  "startLine": 162
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "this lifetime isn't used in the impl"
+          },
+          "ruleId": "clippy::extra_unused_lifetimes",
+          "ruleIndex": 10
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/header/header.rs"
+                },
+                "region": {
+                  "byteLength": 200,
+                  "byteOffset": 3134,
+                  "endColumn": 14,
+                  "endLine": 97,
+                  "startColumn": 42,
+                  "startLine": 93
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "match expression looks like `matches!` macro"
+          },
+          "ruleId": "clippy::match_like_matches_macro",
+          "ruleIndex": 8
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/header/header.rs"
+                },
+                "region": {
+                  "byteLength": 252,
+                  "byteOffset": 23683,
+                  "endColumn": 6,
+                  "endLine": 740,
+                  "startColumn": 5,
+                  "startLine": 734
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "method `into_iter` can be confused for the standard trait method `std::iter::IntoIterator::into_iter`"
+          },
+          "ruleId": "clippy::should_implement_trait",
+          "ruleIndex": 9
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/status.rs"
+                },
+                "region": {
+                  "byteLength": 2,
+                  "byteOffset": 13723,
+                  "endColumn": 12,
+                  "endLine": 391,
+                  "startColumn": 10,
+                  "startLine": 391
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "this lifetime isn't used in the impl"
+          },
+          "ruleId": "clippy::extra_unused_lifetimes",
+          "ruleIndex": 10
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/method.rs"
+                },
+                "region": {
+                  "byteLength": 2,
+                  "byteOffset": 4520,
+                  "endColumn": 12,
+                  "endLine": 162,
+                  "startColumn": 10,
+                  "startLine": 162
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "this lifetime isn't used in the impl"
+          },
+          "ruleId": "clippy::extra_unused_lifetimes",
+          "ruleIndex": 10
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/status.rs"
+                },
+                "region": {
+                  "byteLength": 19,
+                  "byteOffset": 14256,
+                  "endColumn": 35,
+                  "endLine": 407,
+                  "startColumn": 16,
+                  "startLine": 407
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "manual `!Range::contains` implementation"
+          },
+          "ruleId": "clippy::manual_range_contains",
+          "ruleIndex": 11
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/status.rs"
+                },
+                "region": {
+                  "byteLength": 19,
+                  "byteOffset": 14506,
+                  "endColumn": 35,
+                  "endLine": 415,
+                  "startColumn": 16,
+                  "startLine": 415
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "manual `!Range::contains` implementation"
+          },
+          "ruleId": "clippy::manual_range_contains",
+          "ruleIndex": 11
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/header/header.rs"
+                },
+                "region": {
+                  "byteLength": 252,
+                  "byteOffset": 23683,
+                  "endColumn": 6,
+                  "endLine": 740,
+                  "startColumn": 5,
+                  "startLine": 734
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "method `into_iter` can be confused for the standard trait method `std::iter::IntoIterator::into_iter`"
+          },
+          "ruleId": "clippy::should_implement_trait",
+          "ruleIndex": 9
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/method.rs"
+                },
+                "region": {
+                  "byteLength": 2,
+                  "byteOffset": 4520,
+                  "endColumn": 12,
+                  "endLine": 162,
+                  "startColumn": 10,
+                  "startLine": 162
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "this lifetime isn't used in the impl"
+          },
+          "ruleId": "clippy::extra_unused_lifetimes",
+          "ruleIndex": 10
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/status.rs"
+                },
+                "region": {
+                  "byteLength": 2,
+                  "byteOffset": 13723,
+                  "endColumn": 12,
+                  "endLine": 391,
+                  "startColumn": 10,
+                  "startLine": 391
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "this lifetime isn't used in the impl"
+          },
+          "ruleId": "clippy::extra_unused_lifetimes",
+          "ruleIndex": 10
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/status.rs"
+                },
+                "region": {
+                  "byteLength": 19,
+                  "byteOffset": 14256,
+                  "endColumn": 35,
+                  "endLine": 407,
+                  "startColumn": 16,
+                  "startLine": 407
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "manual `!Range::contains` implementation"
+          },
+          "ruleId": "clippy::manual_range_contains",
+          "ruleIndex": 11
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/status.rs"
+                },
+                "region": {
+                  "byteLength": 19,
+                  "byteOffset": 14506,
+                  "endColumn": 35,
+                  "endLine": 415,
+                  "startColumn": 16,
+                  "startLine": 415
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "manual `!Range::contains` implementation"
+          },
+          "ruleId": "clippy::manual_range_contains",
+          "ruleIndex": 11
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/status.rs"
+                },
+                "region": {
+                  "byteLength": 2,
+                  "byteOffset": 13723,
+                  "endColumn": 12,
+                  "endLine": 391,
+                  "startColumn": 10,
+                  "startLine": 391
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "this lifetime isn't used in the impl"
+          },
+          "ruleId": "clippy::extra_unused_lifetimes",
+          "ruleIndex": 10
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/status.rs"
+                },
+                "region": {
+                  "byteLength": 19,
+                  "byteOffset": 14256,
+                  "endColumn": 35,
+                  "endLine": 407,
+                  "startColumn": 16,
+                  "startLine": 407
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "manual `!Range::contains` implementation"
+          },
+          "ruleId": "clippy::manual_range_contains",
+          "ruleIndex": 11
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/status.rs"
+                },
+                "region": {
+                  "byteLength": 19,
+                  "byteOffset": 14506,
+                  "endColumn": 35,
+                  "endLine": 415,
+                  "startColumn": 16,
+                  "startLine": 415
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "manual `!Range::contains` implementation"
+          },
+          "ruleId": "clippy::manual_range_contains",
+          "ruleIndex": 11
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/media_type.rs"
+                },
+                "region": {
+                  "byteLength": 27,
+                  "byteOffset": 450,
+                  "endColumn": 75,
+                  "endLine": 15,
+                  "startColumn": 48,
+                  "startLine": 15
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/media_type.rs"
+                },
+                "region": {
+                  "byteLength": 46,
+                  "byteOffset": 788,
+                  "endColumn": 92,
+                  "endLine": 30,
+                  "startColumn": 46,
+                  "startLine": 30
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/media_type.rs"
+                },
+                "region": {
+                  "byteLength": 21,
+                  "byteOffset": 1119,
+                  "endColumn": 70,
+                  "endLine": 41,
+                  "startColumn": 49,
+                  "startLine": 41
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/media_type.rs"
+                },
+                "region": {
+                  "byteLength": 21,
+                  "byteOffset": 1734,
+                  "endColumn": 62,
+                  "endLine": 61,
+                  "startColumn": 41,
+                  "startLine": 61
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/accept.rs"
+                },
+                "region": {
+                  "byteLength": 22,
+                  "byteOffset": 392,
+                  "endColumn": 76,
+                  "endLine": 12,
+                  "startColumn": 54,
+                  "startLine": 12
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/media_type.rs"
+                },
+                "region": {
+                  "byteLength": 27,
+                  "byteOffset": 450,
+                  "endColumn": 75,
+                  "endLine": 15,
+                  "startColumn": 48,
+                  "startLine": 15
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/accept.rs"
+                },
+                "region": {
+                  "byteLength": 18,
+                  "byteOffset": 1053,
+                  "endColumn": 59,
+                  "endLine": 33,
+                  "startColumn": 41,
+                  "startLine": 33
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/media_type.rs"
+                },
+                "region": {
+                  "byteLength": 46,
+                  "byteOffset": 788,
+                  "endColumn": 92,
+                  "endLine": 30,
+                  "startColumn": 46,
+                  "startLine": 30
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/accept.rs"
+                },
+                "region": {
+                  "byteLength": 18,
+                  "byteOffset": 1193,
+                  "endColumn": 55,
+                  "endLine": 37,
+                  "startColumn": 37,
+                  "startLine": 37
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/media_type.rs"
+                },
+                "region": {
+                  "byteLength": 21,
+                  "byteOffset": 1119,
+                  "endColumn": 70,
+                  "endLine": 41,
+                  "startColumn": 49,
+                  "startLine": 41
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/media_type.rs"
+                },
+                "region": {
+                  "byteLength": 21,
+                  "byteOffset": 1734,
+                  "endColumn": 62,
+                  "endLine": 61,
+                  "startColumn": 41,
+                  "startLine": 61
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/accept.rs"
+                },
+                "region": {
+                  "byteLength": 22,
+                  "byteOffset": 392,
+                  "endColumn": 76,
+                  "endLine": 12,
+                  "startColumn": 54,
+                  "startLine": 12
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/indexed.rs"
+                },
+                "region": {
+                  "byteLength": 12,
+                  "byteOffset": 6516,
+                  "endColumn": 68,
+                  "endLine": 214,
+                  "startColumn": 56,
+                  "startLine": 214
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "casting to the same type is unnecessary (`usize` -> `usize`)"
+          },
+          "ruleId": "clippy::unnecessary_cast",
+          "ruleIndex": 13
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/indexed.rs"
+                },
+                "region": {
+                  "byteLength": 12,
+                  "byteOffset": 6530,
+                  "endColumn": 82,
+                  "endLine": 214,
+                  "startColumn": 70,
+                  "startLine": 214
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "casting to the same type is unnecessary (`usize` -> `usize`)"
+          },
+          "ruleId": "clippy::unnecessary_cast",
+          "ruleIndex": 13
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/indexed.rs"
+                },
+                "region": {
+                  "byteLength": 6,
+                  "byteOffset": 6588,
+                  "endColumn": 50,
+                  "endLine": 215,
+                  "startColumn": 44,
+                  "startLine": 215
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "deref on an immutable reference"
+          },
+          "ruleId": "clippy::borrow_deref_ref",
+          "ruleIndex": 4
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/media_type.rs"
+                },
+                "region": {
+                  "byteLength": 27,
+                  "byteOffset": 450,
+                  "endColumn": 75,
+                  "endLine": 15,
+                  "startColumn": 48,
+                  "startLine": 15
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/indexed.rs"
+                },
+                "region": {
+                  "byteLength": 16,
+                  "byteOffset": 7402,
+                  "endColumn": 55,
+                  "endLine": 244,
+                  "startColumn": 39,
+                  "startLine": 244
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "casting to the same type is unnecessary (`usize` -> `usize`)"
+          },
+          "ruleId": "clippy::unnecessary_cast",
+          "ruleIndex": 13
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/accept.rs"
+                },
+                "region": {
+                  "byteLength": 18,
+                  "byteOffset": 1053,
+                  "endColumn": 59,
+                  "endLine": 33,
+                  "startColumn": 41,
+                  "startLine": 33
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/accept.rs"
+                },
+                "region": {
+                  "byteLength": 18,
+                  "byteOffset": 1193,
+                  "endColumn": 55,
+                  "endLine": 37,
+                  "startColumn": 37,
+                  "startLine": 37
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/media_type.rs"
+                },
+                "region": {
+                  "byteLength": 46,
+                  "byteOffset": 788,
+                  "endColumn": 92,
+                  "endLine": 30,
+                  "startColumn": 46,
+                  "startLine": 30
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 19,
+                  "byteOffset": 1465,
+                  "endColumn": 64,
+                  "endLine": 34,
+                  "startColumn": 45,
+                  "startLine": 34
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/media_type.rs"
+                },
+                "region": {
+                  "byteLength": 21,
+                  "byteOffset": 1119,
+                  "endColumn": 70,
+                  "endLine": 41,
+                  "startColumn": 49,
+                  "startLine": 41
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 20,
+                  "byteOffset": 2019,
+                  "endColumn": 70,
+                  "endLine": 47,
+                  "startColumn": 50,
+                  "startLine": 47
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 22,
+                  "byteOffset": 2131,
+                  "endColumn": 70,
+                  "endLine": 53,
+                  "startColumn": 48,
+                  "startLine": 53
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/media_type.rs"
+                },
+                "region": {
+                  "byteLength": 21,
+                  "byteOffset": 1734,
+                  "endColumn": 62,
+                  "endLine": 61,
+                  "startColumn": 41,
+                  "startLine": 61
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 25,
+                  "byteOffset": 2340,
+                  "endColumn": 76,
+                  "endLine": 59,
+                  "startColumn": 51,
+                  "startLine": 59
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/accept.rs"
+                },
+                "region": {
+                  "byteLength": 22,
+                  "byteOffset": 392,
+                  "endColumn": 76,
+                  "endLine": 12,
+                  "startColumn": 54,
+                  "startLine": 12
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/indexed.rs"
+                },
+                "region": {
+                  "byteLength": 12,
+                  "byteOffset": 6516,
+                  "endColumn": 68,
+                  "endLine": 214,
+                  "startColumn": 56,
+                  "startLine": 214
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "casting to the same type is unnecessary (`usize` -> `usize`)"
+          },
+          "ruleId": "clippy::unnecessary_cast",
+          "ruleIndex": 13
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/indexed.rs"
+                },
+                "region": {
+                  "byteLength": 12,
+                  "byteOffset": 6530,
+                  "endColumn": 82,
+                  "endLine": 214,
+                  "startColumn": 70,
+                  "startLine": 214
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "casting to the same type is unnecessary (`usize` -> `usize`)"
+          },
+          "ruleId": "clippy::unnecessary_cast",
+          "ruleIndex": 13
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/indexed.rs"
+                },
+                "region": {
+                  "byteLength": 6,
+                  "byteOffset": 6588,
+                  "endColumn": 50,
+                  "endLine": 215,
+                  "startColumn": 44,
+                  "startLine": 215
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "deref on an immutable reference"
+          },
+          "ruleId": "clippy::borrow_deref_ref",
+          "ruleIndex": 4
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/indexed.rs"
+                },
+                "region": {
+                  "byteLength": 16,
+                  "byteOffset": 7402,
+                  "endColumn": 55,
+                  "endLine": 244,
+                  "startColumn": 39,
+                  "startLine": 244
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "casting to the same type is unnecessary (`usize` -> `usize`)"
+          },
+          "ruleId": "clippy::unnecessary_cast",
+          "ruleIndex": 13
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/accept.rs"
+                },
+                "region": {
+                  "byteLength": 18,
+                  "byteOffset": 1053,
+                  "endColumn": 59,
+                  "endLine": 33,
+                  "startColumn": 41,
+                  "startLine": 33
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 19,
+                  "byteOffset": 1465,
+                  "endColumn": 64,
+                  "endLine": 34,
+                  "startColumn": 45,
+                  "startLine": 34
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/accept.rs"
+                },
+                "region": {
+                  "byteLength": 18,
+                  "byteOffset": 1193,
+                  "endColumn": 55,
+                  "endLine": 37,
+                  "startColumn": 37,
+                  "startLine": 37
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 28,
+                  "byteOffset": 3369,
+                  "endColumn": 76,
+                  "endLine": 84,
+                  "startColumn": 48,
+                  "startLine": 84
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 13,
+                  "byteOffset": 3459,
+                  "endColumn": 22,
+                  "endLine": 86,
+                  "startColumn": 9,
+                  "startLine": 86
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "accessing first element with `scheme.get(0)`"
+          },
+          "ruleId": "clippy::get_first",
+          "ruleIndex": 3
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 20,
+                  "byteOffset": 2019,
+                  "endColumn": 70,
+                  "endLine": 47,
+                  "startColumn": 50,
+                  "startLine": 47
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 24,
+                  "byteOffset": 3639,
+                  "endColumn": 74,
+                  "endLine": 94,
+                  "startColumn": 50,
+                  "startLine": 94
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 22,
+                  "byteOffset": 2131,
+                  "endColumn": 70,
+                  "endLine": 53,
+                  "startColumn": 48,
+                  "startLine": 53
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 25,
+                  "byteOffset": 3923,
+                  "endColumn": 31,
+                  "endLine": 103,
+                  "startColumn": 6,
+                  "startLine": 103
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 25,
+                  "byteOffset": 2340,
+                  "endColumn": 76,
+                  "endLine": 59,
+                  "startColumn": 51,
+                  "startLine": 59
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 13,
+                  "byteOffset": 4158,
+                  "endColumn": 30,
+                  "endLine": 108,
+                  "startColumn": 17,
+                  "startLine": 108
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "accessing first element with `prefix.get(0)`"
+          },
+          "ruleId": "clippy::get_first",
+          "ruleIndex": 3
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/indexed.rs"
+                },
+                "region": {
+                  "byteLength": 12,
+                  "byteOffset": 6516,
+                  "endColumn": 68,
+                  "endLine": 214,
+                  "startColumn": 56,
+                  "startLine": 214
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "casting to the same type is unnecessary (`usize` -> `usize`)"
+          },
+          "ruleId": "clippy::unnecessary_cast",
+          "ruleIndex": 13
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/indexed.rs"
+                },
+                "region": {
+                  "byteLength": 12,
+                  "byteOffset": 6530,
+                  "endColumn": 82,
+                  "endLine": 214,
+                  "startColumn": 70,
+                  "startLine": 214
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "casting to the same type is unnecessary (`usize` -> `usize`)"
+          },
+          "ruleId": "clippy::unnecessary_cast",
+          "ruleIndex": 13
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/indexed.rs"
+                },
+                "region": {
+                  "byteLength": 6,
+                  "byteOffset": 6588,
+                  "endColumn": 50,
+                  "endLine": 215,
+                  "startColumn": 44,
+                  "startLine": 215
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "deref on an immutable reference"
+          },
+          "ruleId": "clippy::borrow_deref_ref",
+          "ruleIndex": 4
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/indexed.rs"
+                },
+                "region": {
+                  "byteLength": 16,
+                  "byteOffset": 7402,
+                  "endColumn": 55,
+                  "endLine": 244,
+                  "startColumn": 39,
+                  "startLine": 244
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "casting to the same type is unnecessary (`usize` -> `usize`)"
+          },
+          "ruleId": "clippy::unnecessary_cast",
+          "ruleIndex": 13
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 53,
+                  "byteOffset": 4940,
+                  "endColumn": 59,
+                  "endLine": 133,
+                  "startColumn": 6,
+                  "startLine": 133
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 28,
+                  "byteOffset": 3369,
+                  "endColumn": 76,
+                  "endLine": 84,
+                  "startColumn": 48,
+                  "startLine": 84
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 19,
+                  "byteOffset": 1465,
+                  "endColumn": 64,
+                  "endLine": 34,
+                  "startColumn": 45,
+                  "startLine": 34
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 28,
+                  "byteOffset": 5297,
+                  "endColumn": 34,
+                  "endLine": 147,
+                  "startColumn": 6,
+                  "startLine": 147
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 13,
+                  "byteOffset": 3459,
+                  "endColumn": 22,
+                  "endLine": 86,
+                  "startColumn": 9,
+                  "startLine": 86
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "accessing first element with `scheme.get(0)`"
+          },
+          "ruleId": "clippy::get_first",
+          "ruleIndex": 3
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 24,
+                  "byteOffset": 3639,
+                  "endColumn": 74,
+                  "endLine": 94,
+                  "startColumn": 50,
+                  "startLine": 94
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 23,
+                  "byteOffset": 5511,
+                  "endColumn": 29,
+                  "endLine": 157,
+                  "startColumn": 6,
+                  "startLine": 157
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 20,
+                  "byteOffset": 2019,
+                  "endColumn": 70,
+                  "endLine": 47,
+                  "startColumn": 50,
+                  "startLine": 47
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 25,
+                  "byteOffset": 3923,
+                  "endColumn": 31,
+                  "endLine": 103,
+                  "startColumn": 6,
+                  "startLine": 103
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 22,
+                  "byteOffset": 2131,
+                  "endColumn": 70,
+                  "endLine": 53,
+                  "startColumn": 48,
+                  "startLine": 53
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 23,
+                  "byteOffset": 5892,
+                  "endColumn": 85,
+                  "endLine": 169,
+                  "startColumn": 62,
+                  "startLine": 169
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 25,
+                  "byteOffset": 2340,
+                  "endColumn": 76,
+                  "endLine": 59,
+                  "startColumn": 51,
+                  "startLine": 59
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 13,
+                  "byteOffset": 4158,
+                  "endColumn": 30,
+                  "endLine": 108,
+                  "startColumn": 17,
+                  "startLine": 108
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "accessing first element with `prefix.get(0)`"
+          },
+          "ruleId": "clippy::get_first",
+          "ruleIndex": 3
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 28,
+                  "byteOffset": 6445,
+                  "endColumn": 70,
+                  "endLine": 189,
+                  "startColumn": 42,
+                  "startLine": 189
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 36,
+                  "byteOffset": 6557,
+                  "endColumn": 79,
+                  "endLine": 194,
+                  "startColumn": 43,
+                  "startLine": 194
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 53,
+                  "byteOffset": 4940,
+                  "endColumn": 59,
+                  "endLine": 133,
+                  "startColumn": 6,
+                  "startLine": 133
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 36,
+                  "byteOffset": 6705,
+                  "endColumn": 82,
+                  "endLine": 199,
+                  "startColumn": 46,
+                  "startLine": 199
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 28,
+                  "byteOffset": 5297,
+                  "endColumn": 34,
+                  "endLine": 147,
+                  "startColumn": 6,
+                  "startLine": 147
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 28,
+                  "byteOffset": 3369,
+                  "endColumn": 76,
+                  "endLine": 84,
+                  "startColumn": 48,
+                  "startLine": 84
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 23,
+                  "byteOffset": 5511,
+                  "endColumn": 29,
+                  "endLine": 157,
+                  "startColumn": 6,
+                  "startLine": 157
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 13,
+                  "byteOffset": 3459,
+                  "endColumn": 22,
+                  "endLine": 86,
+                  "startColumn": 9,
+                  "startLine": 86
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "accessing first element with `scheme.get(0)`"
+          },
+          "ruleId": "clippy::get_first",
+          "ruleIndex": 3
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 24,
+                  "byteOffset": 3639,
+                  "endColumn": 74,
+                  "endLine": 94,
+                  "startColumn": 50,
+                  "startLine": 94
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 23,
+                  "byteOffset": 5892,
+                  "endColumn": 85,
+                  "endLine": 169,
+                  "startColumn": 62,
+                  "startLine": 169
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 25,
+                  "byteOffset": 3923,
+                  "endColumn": 31,
+                  "endLine": 103,
+                  "startColumn": 6,
+                  "startLine": 103
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 28,
+                  "byteOffset": 6445,
+                  "endColumn": 70,
+                  "endLine": 189,
+                  "startColumn": 42,
+                  "startLine": 189
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 13,
+                  "byteOffset": 4158,
+                  "endColumn": 30,
+                  "endLine": 108,
+                  "startColumn": 17,
+                  "startLine": 108
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "accessing first element with `prefix.get(0)`"
+          },
+          "ruleId": "clippy::get_first",
+          "ruleIndex": 3
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 36,
+                  "byteOffset": 6557,
+                  "endColumn": 79,
+                  "endLine": 194,
+                  "startColumn": 43,
+                  "startLine": 194
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 36,
+                  "byteOffset": 6705,
+                  "endColumn": 82,
+                  "endLine": 199,
+                  "startColumn": 46,
+                  "startLine": 199
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 53,
+                  "byteOffset": 4940,
+                  "endColumn": 59,
+                  "endLine": 133,
+                  "startColumn": 6,
+                  "startLine": 133
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 28,
+                  "byteOffset": 5297,
+                  "endColumn": 34,
+                  "endLine": 147,
+                  "startColumn": 6,
+                  "startLine": 147
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 23,
+                  "byteOffset": 5511,
+                  "endColumn": 29,
+                  "endLine": 157,
+                  "startColumn": 6,
+                  "startLine": 157
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 23,
+                  "byteOffset": 5892,
+                  "endColumn": 85,
+                  "endLine": 169,
+                  "startColumn": 62,
+                  "startLine": 169
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 28,
+                  "byteOffset": 6445,
+                  "endColumn": 70,
+                  "endLine": 189,
+                  "startColumn": 42,
+                  "startLine": 189
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 36,
+                  "byteOffset": 6557,
+                  "endColumn": 79,
+                  "endLine": 194,
+                  "startColumn": 43,
+                  "startLine": 194
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/parse/uri/parser.rs"
+                },
+                "region": {
+                  "byteLength": 36,
+                  "byteOffset": 6705,
+                  "endColumn": 82,
+                  "endLine": 199,
+                  "startColumn": 46,
+                  "startLine": 199
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the `Err`-variant returned from this function is very large"
+          },
+          "ruleId": "clippy::result_large_err",
+          "ruleIndex": 12
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/tls/mtls.rs"
+                },
+                "region": {
+                  "byteLength": 26,
+                  "byteOffset": 10855,
+                  "endColumn": 35,
+                  "endLine": 337,
+                  "startColumn": 9,
+                  "startLine": 337
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "this expression creates a reference which is immediately dereferenced by the compiler"
+          },
+          "ruleId": "clippy::needless_borrow",
+          "ruleIndex": 5
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/tls/mtls.rs"
+                },
+                "region": {
+                  "byteLength": 26,
+                  "byteOffset": 10855,
+                  "endColumn": 35,
+                  "endLine": 337,
+                  "startColumn": 9,
+                  "startLine": 337
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "this expression creates a reference which is immediately dereferenced by the compiler"
+          },
+          "ruleId": "clippy::needless_borrow",
+          "ruleIndex": 5
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/http/src/tls/mtls.rs"
+                },
+                "region": {
+                  "byteLength": 26,
+                  "byteOffset": 10855,
+                  "endColumn": 35,
+                  "endLine": 337,
+                  "startColumn": 9,
+                  "startLine": 337
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "this expression creates a reference which is immediately dereferenced by the compiler"
+          },
+          "ruleId": "clippy::needless_borrow",
+          "ruleIndex": 5
+        }
+      ],
+      "tool": {
+        "driver": {
+          "informationUri": "https://rust-lang.github.io/rust-clippy/",
+          "name": "clippy",
+          "rules": [
+            {
+              "fullDescription": {
+                "text": "for further information visit https://rust-lang.github.io/rust-clippy/master/index.html#just_underscores_and_digits\n`#[warn(clippy::just_underscores_and_digits)]` on by default\n"
+              },
+              "helpUri": "https://rust-lang.github.io/rust-clippy/master/index.html#just_underscores_and_digits",
+              "id": "clippy::just_underscores_and_digits"
+            },
+            {
+              "fullDescription": {
+                "text": "for further information visit https://rust-lang.github.io/rust-clippy/master/index.html#module_inception\n`#[warn(clippy::module_inception)]` on by default\n"
+              },
+              "helpUri": "https://rust-lang.github.io/rust-clippy/master/index.html#module_inception",
+              "id": "clippy::module_inception"
+            },
+            {
+              "fullDescription": {
+                "text": "for further information visit https://rust-lang.github.io/rust-clippy/master/index.html#declare_interior_mutable_const\n`#[warn(clippy::declare_interior_mutable_const)]` on by default\n"
+              },
+              "helpUri": "https://rust-lang.github.io/rust-clippy/master/index.html#declare_interior_mutable_const",
+              "id": "clippy::declare_interior_mutable_const"
+            },
+            {
+              "fullDescription": {
+                "text": "for further information visit https://rust-lang.github.io/rust-clippy/master/index.html#get_first\n`#[warn(clippy::get_first)]` on by default\n"
+              },
+              "helpUri": "https://rust-lang.github.io/rust-clippy/master/index.html#get_first",
+              "id": "clippy::get_first"
+            },
+            {
+              "fullDescription": {
+                "text": "for further information visit https://rust-lang.github.io/rust-clippy/master/index.html#borrow_deref_ref\n`#[warn(clippy::borrow_deref_ref)]` on by default\n"
+              },
+              "helpUri": "https://rust-lang.github.io/rust-clippy/master/index.html#borrow_deref_ref",
+              "id": "clippy::borrow_deref_ref"
+            },
+            {
+              "fullDescription": {
+                "text": "for further information visit https://rust-lang.github.io/rust-clippy/master/index.html#needless_borrow\n`#[warn(clippy::needless_borrow)]` on by default\n"
+              },
+              "helpUri": "https://rust-lang.github.io/rust-clippy/master/index.html#needless_borrow",
+              "id": "clippy::needless_borrow"
+            },
+            {
+              "fullDescription": {
+                "text": "for further information visit https://rust-lang.github.io/rust-clippy/master/index.html#needless_borrowed_reference\n`#[warn(clippy::needless_borrowed_reference)]` on by default\n"
+              },
+              "helpUri": "https://rust-lang.github.io/rust-clippy/master/index.html#needless_borrowed_reference",
+              "id": "clippy::needless_borrowed_reference"
+            },
+            {
+              "fullDescription": {
+                "text": "for further information visit https://rust-lang.github.io/rust-clippy/master/index.html#if_same_then_else\n`#[deny(clippy::if_same_then_else)]` on by default\n"
+              },
+              "helpUri": "https://rust-lang.github.io/rust-clippy/master/index.html#if_same_then_else",
+              "id": "clippy::if_same_then_else"
+            },
+            {
+              "fullDescription": {
+                "text": "for further information visit https://rust-lang.github.io/rust-clippy/master/index.html#match_like_matches_macro\n`#[warn(clippy::match_like_matches_macro)]` on by default\n"
+              },
+              "helpUri": "https://rust-lang.github.io/rust-clippy/master/index.html#match_like_matches_macro",
+              "id": "clippy::match_like_matches_macro"
+            },
+            {
+              "fullDescription": {
+                "text": "consider implementing the trait `std::iter::IntoIterator` or choosing a less ambiguous method name\nfor further information visit https://rust-lang.github.io/rust-clippy/master/index.html#should_implement_trait\n`#[warn(clippy::should_implement_trait)]` on by default\n"
+              },
+              "id": "clippy::should_implement_trait"
+            },
+            {
+              "fullDescription": {
+                "text": "for further information visit https://rust-lang.github.io/rust-clippy/master/index.html#extra_unused_lifetimes\n`#[warn(clippy::extra_unused_lifetimes)]` on by default\n"
+              },
+              "helpUri": "https://rust-lang.github.io/rust-clippy/master/index.html#extra_unused_lifetimes",
+              "id": "clippy::extra_unused_lifetimes"
+            },
+            {
+              "fullDescription": {
+                "text": "for further information visit https://rust-lang.github.io/rust-clippy/master/index.html#manual_range_contains\n`#[warn(clippy::manual_range_contains)]` on by default\n"
+              },
+              "helpUri": "https://rust-lang.github.io/rust-clippy/master/index.html#manual_range_contains",
+              "id": "clippy::manual_range_contains"
+            },
+            {
+              "fullDescription": {
+                "text": "try reducing the size of `pear::error::ParseError<<pear::input::Pear<pear::input::Cursor<&str>> as pear::input::Input>::Context, pear::error::Expected<<pear::input::Pear<pear::input::Cursor<&str>> as pear::input::Input>::Token, <pear::input::Pear<pear::input::Cursor<&str>> as pear::input::Input>::Slice>>`, for example by boxing large elements or replacing it with `Box<pear::error::ParseError<<pear::input::Pear<pear::input::Cursor<&str>> as pear::input::Input>::Context, pear::error::Expected<<pear::input::Pear<pear::input::Cursor<&str>> as pear::input::Input>::Token, <pear::input::Pear<pear::input::Cursor<&str>> as pear::input::Input>::Slice>>>`\nfor further information visit https://rust-lang.github.io/rust-clippy/master/index.html#result_large_err\n`#[warn(clippy::result_large_err)]` on by default\n"
+              },
+              "id": "clippy::result_large_err"
+            },
+            {
+              "fullDescription": {
+                "text": "for further information visit https://rust-lang.github.io/rust-clippy/master/index.html#unnecessary_cast\n`#[warn(clippy::unnecessary_cast)]` on by default\n"
+              },
+              "helpUri": "https://rust-lang.github.io/rust-clippy/master/index.html#unnecessary_cast",
+              "id": "clippy::unnecessary_cast"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "version": "2.1.0"
+}

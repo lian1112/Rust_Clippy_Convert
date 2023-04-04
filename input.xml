@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="7.0.0-rc1" timestamp="2023-03-29T10:31:10.447">
+<file name=".\src\main\java\org\joychou\Application.java">
+<violation beginline="8" endline="8" begincolumn="1" endcolumn="68" rule="UnnecessaryImport" ruleset="Code Style" package="org.joychou" class="Application" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'org.springframework.cloud.netflix.eureka.EnableEurekaClient'
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\RMI\Client.java">
+<violation beginline="1" endline="1" begincolumn="1" endcolumn="25" rule="PackageCase" ruleset="Code Style" package="org.joychou.RMI" class="Client" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="6" endline="6" begincolumn="8" endcolumn="13" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="org.joychou.RMI" class="Client" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal" priority="1">
+This class has only private constructors and may be final
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\RMI\Hello.java">
+<violation beginline="1" endline="1" begincolumn="1" endcolumn="25" rule="PackageCase" ruleset="Code Style" package="org.joychou.RMI" class="Hello" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\RMI\Server.java">
+<violation beginline="1" endline="1" begincolumn="1" endcolumn="25" rule="PackageCase" ruleset="Code Style" package="org.joychou.RMI" class="Server" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\config\Constants.java">
+<violation beginline="3" endline="3" begincolumn="8" endcolumn="13" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="org.joychou.config" class="Constants" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal" priority="1">
+This class has only private constructors and may be final
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\config\CustomCorsConfig.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="49" rule="UnnecessaryImport" ruleset="Code Style" package="org.joychou.config" class="CustomCorsConfig" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'org.joychou.security.CustomCorsProcessor'
+</violation>
+<violation beginline="44" endline="44" begincolumn="20" endcolumn="25" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="org.joychou.config" class="CustomRequestMappingHandlerMapping" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal" priority="1">
+This class has only private constructors and may be final
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\config\Object2Jsonp.java">
+<violation beginline="87" endline="87" begincolumn="13" endcolumn="88" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.config" class="Object2Jsonp" method="jsonpReferHandler" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="95" endline="95" begincolumn="17" endcolumn="44" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.config" class="Object2Jsonp" method="jsonpReferHandler" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\config\SafeDomainConfig.java">
+<violation beginline="23" endline="23" begincolumn="13" endcolumn="75" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.config" class="SafeDomainConfig" method="safeDomainParser" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\config\SafeDomainParser.java">
+<violation beginline="26" endline="26" begincolumn="9" endcolumn="26" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.config" class="SafeDomainParser" method="SafeDomainParser" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="27" endline="27" begincolumn="9" endcolumn="26" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.config" class="SafeDomainParser" method="SafeDomainParser" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="64" endline="64" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.config" class="SafeDomainParser" method="SafeDomainParser" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="69" endline="69" begincolumn="9" endcolumn="45" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.config" class="SafeDomainParser" method="SafeDomainParser" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="81" endline="81" begincolumn="9" endcolumn="26" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.config" class="SafeDomainParser" method="SafeDomainParser" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="82" endline="82" begincolumn="9" endcolumn="26" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.config" class="SafeDomainParser" method="SafeDomainParser" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="83" endline="83" begincolumn="9" endcolumn="26" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.config" class="SafeDomainParser" method="SafeDomainParser" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="128" endline="128" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.config" class="SafeDomainParser" method="SafeDomainParser" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="131" endline="131" begincolumn="9" endcolumn="46" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.config" class="SafeDomainParser" method="SafeDomainParser" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\config\WebConfig.java">
+<violation beginline="24" endline="24" begincolumn="20" endcolumn="37" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.config" class="WebConfig" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="25" endline="25" begincolumn="20" endcolumn="37" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.config" class="WebConfig" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="26" endline="26" begincolumn="20" endcolumn="37" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.config" class="WebConfig" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="27" endline="27" begincolumn="20" endcolumn="37" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.config" class="WebConfig" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="28" endline="28" begincolumn="20" endcolumn="37" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.config" class="WebConfig" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="95" endline="95" begincolumn="25" endcolumn="42" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.config" class="WebConfig" method="setSafeDomains" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="99" endline="99" begincolumn="19" endcolumn="36" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.config" class="WebConfig" method="getSafeDomains" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="104" endline="104" begincolumn="26" endcolumn="43" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.config" class="WebConfig" method="setBlockDomains" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="108" endline="108" begincolumn="19" endcolumn="36" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.config" class="WebConfig" method="getBlockDomains" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="113" endline="113" begincolumn="29" endcolumn="46" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.config" class="WebConfig" method="setSsrfSafeDomains" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="117" endline="117" begincolumn="19" endcolumn="36" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.config" class="WebConfig" method="getSsrfSafeDomains" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="122" endline="122" begincolumn="30" endcolumn="47" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.config" class="WebConfig" method="setSsrfBlockDomains" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="126" endline="126" begincolumn="19" endcolumn="36" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.config" class="WebConfig" method="getSsrfBlockDomainsDomains" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="131" endline="131" begincolumn="26" endcolumn="43" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.config" class="WebConfig" method="setSsrfBlockIps" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="135" endline="135" begincolumn="19" endcolumn="36" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.config" class="WebConfig" method="getSsrfBlockIps" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\controller\Cookies.java">
+<violation beginline="13" endline="13" begincolumn="1" endcolumn="63" rule="UnnecessaryImport" ruleset="Code Style" package="org.joychou.controller" class="Cookies" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused static import 'org.springframework.web.util.WebUtils.getCookie'
+</violation>
+<violation beginline="25" endline="25" begincolumn="16" endcolumn="35" rule="UnnecessaryAnnotationValueElement" ruleset="Code Style" package="org.joychou.controller" class="Cookies" method="vuln01" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement" priority="3">
+Avoid the use of value in annotations when its the only element
+</violation>
+<violation beginline="32" endline="32" begincolumn="16" endcolumn="35" rule="UnnecessaryAnnotationValueElement" ruleset="Code Style" package="org.joychou.controller" class="Cookies" method="vuln02" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement" priority="3">
+Avoid the use of value in annotations when its the only element
+</violation>
+<violation beginline="45" endline="45" begincolumn="16" endcolumn="35" rule="UnnecessaryAnnotationValueElement" ruleset="Code Style" package="org.joychou.controller" class="Cookies" method="vuln03" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement" priority="3">
+Avoid the use of value in annotations when its the only element
+</violation>
+<violation beginline="61" endline="61" begincolumn="16" endcolumn="35" rule="UnnecessaryAnnotationValueElement" ruleset="Code Style" package="org.joychou.controller" class="Cookies" method="vuln04" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement" priority="3">
+Avoid the use of value in annotations when its the only element
+</violation>
+<violation beginline="76" endline="76" begincolumn="16" endcolumn="35" rule="UnnecessaryAnnotationValueElement" ruleset="Code Style" package="org.joychou.controller" class="Cookies" method="vuln05" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement" priority="3">
+Avoid the use of value in annotations when its the only element
+</violation>
+<violation beginline="82" endline="82" begincolumn="16" endcolumn="35" rule="UnnecessaryAnnotationValueElement" ruleset="Code Style" package="org.joychou.controller" class="Cookies" method="vuln06" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement" priority="3">
+Avoid the use of value in annotations when its the only element
+</violation>
+<violation beginline="83" endline="83" begincolumn="38" endcolumn="54" rule="UnnecessaryAnnotationValueElement" ruleset="Code Style" package="org.joychou.controller" class="Cookies" method="vuln06" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement" priority="3">
+Avoid the use of value in annotations when its the only element
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\controller\Cors.java">
+<violation beginline="66" endline="66" begincolumn="22" endcolumn="37" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="Cors" method="getCsrfToken_01" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'getCsrfToken_01' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="77" endline="77" begincolumn="22" endcolumn="37" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="Cors" method="getCsrfToken_02" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'getCsrfToken_02' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="88" endline="88" begincolumn="22" endcolumn="37" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="Cors" method="getCsrfToken_03" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'getCsrfToken_03' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="99" endline="99" begincolumn="22" endcolumn="37" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="Cors" method="getCsrfToken_04" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'getCsrfToken_04' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\controller\Deserialize.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="37" rule="UnnecessaryImport" ruleset="Code Style" package="org.joychou.controller" class="Deserialize" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'org.joychou.config.Constants'
+</violation>
+<violation beginline="18" endline="18" begincolumn="1" endcolumn="63" rule="UnnecessaryImport" ruleset="Code Style" package="org.joychou.controller" class="Deserialize" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused static import 'org.springframework.web.util.WebUtils.getCookie'
+</violation>
+<violation beginline="82" endline="82" begincolumn="13" endcolumn="39" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="Deserialize" method="rememberMeBlackClassCheck" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\controller\Fastjson.java">
+<violation beginline="19" endline="19" begincolumn="19" endcolumn="30" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="Fastjson" method="Deserialize" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'Deserialize' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\controller\FileUpload.java">
+<violation beginline="7" endline="7" begincolumn="1" endcolumn="50" rule="UnnecessaryImport" ruleset="Code Style" package="org.joychou.controller" class="FileUpload" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'org.springframework.web.bind.annotation.*'
+</violation>
+<violation beginline="70" endline="70" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="FileUpload" method="singleFileUpload" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="90" endline="90" begincolumn="16" endcolumn="22" rule="LocalVariableNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="FileUpload" method="uploadPicture" variable="Suffix" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The local variable name 'Suffix' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="100" endline="100" begincolumn="17" endcolumn="37" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="org.joychou.controller" class="FileUpload" method="uploadPicture" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="106" endline="106" begincolumn="13" endcolumn="57" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="FileUpload" method="uploadPicture" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="124" endline="124" begincolumn="17" endcolumn="66" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="FileUpload" method="uploadPicture" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="147" endline="147" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="FileUpload" method="uploadPicture" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="161" endline="161" begincolumn="17" endcolumn="74" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="FileUpload" method="deleteFile" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="165" endline="165" begincolumn="9" endcolumn="51" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="FileUpload" method="deleteFile" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="185" endline="185" begincolumn="26" endcolumn="29" rule="CloseResource" ruleset="Error Prone" package="org.joychou.controller" class="FileUpload" method="convert" variable="fos" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this FileOutputStream object are closed after use
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\controller\GetRequestURI.java">
+<violation beginline="34" endline="34" begincolumn="16" endcolumn="41" rule="UnnecessaryAnnotationValueElement" ruleset="Code Style" package="org.joychou.controller" class="GetRequestURI" method="exclued" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement" priority="3">
+Avoid the use of value in annotations when its the only element
+</violation>
+<violation beginline="41" endline="41" begincolumn="9" endcolumn="46" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="GetRequestURI" method="exclued" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="42" endline="42" begincolumn="9" endcolumn="68" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="GetRequestURI" method="exclued" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\controller\IPForge.java">
+<violation beginline="17" endline="17" begincolumn="8" endcolumn="13" rule="UseUtilityClass" ruleset="Design" package="org.joychou.controller" class="IPForge" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_design.html#useutilityclass" priority="3">
+This utility class has a non-private constructor
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\controller\Jsonp.java">
+<violation beginline="15" endline="15" begincolumn="1" endcolumn="50" rule="UnnecessaryImport" ruleset="Code Style" package="org.joychou.controller" class="Jsonp" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'org.springframework.web.bind.annotation.*'
+</violation>
+<violation beginline="22" endline="22" begincolumn="1" endcolumn="47" rule="UnnecessaryImport" ruleset="Code Style" package="org.joychou.controller" class="Jsonp" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'javax.servlet.http.HttpServletResponse'
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\controller\Login.java">
+<violation beginline="46" endline="46" begincolumn="13" endcolumn="66" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="Login" method="logoutPage" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="48" endline="48" begincolumn="13" endcolumn="83" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="Login" method="logoutPage" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\controller\PathTraversal.java">
+<violation beginline="32" endline="32" begincolumn="13" endcolumn="59" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="PathTraversal" method="getImageSec" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="40" endline="40" begincolumn="9" endcolumn="77" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="PathTraversal" method="getImgBase64" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="41" endline="41" begincolumn="9" endcolumn="46" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="PathTraversal" method="getImgBase64" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\controller\Rce.java">
+<violation beginline="29" endline="29" begincolumn="19" endcolumn="30" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="Rce" method="CommandExec" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'CommandExec' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="35" endline="35" begincolumn="33" endcolumn="35" rule="CloseResource" ruleset="Error Prone" package="org.joychou.controller" class="Rce" method="CommandExec" variable="in" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this BufferedInputStream object are closed after use
+</violation>
+<violation beginline="36" endline="36" begincolumn="28" endcolumn="32" rule="CloseResource" ruleset="Error Prone" package="org.joychou.controller" class="Rce" method="CommandExec" variable="inBr" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this BufferedReader object are closed after use
+</violation>
+<violation beginline="45" endline="45" begincolumn="21" endcolumn="52" rule="ControlStatementBraces" ruleset="Code Style" package="org.joychou.controller" class="Rce" method="CommandExec" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="70" endline="70" begincolumn="33" endcolumn="35" rule="CloseResource" ruleset="Error Prone" package="org.joychou.controller" class="Rce" method="processBuilder" variable="in" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this BufferedInputStream object are closed after use
+</violation>
+<violation beginline="71" endline="71" begincolumn="28" endcolumn="32" rule="CloseResource" ruleset="Error Prone" package="org.joychou.controller" class="Rce" method="processBuilder" variable="inBr" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this BufferedReader object are closed after use
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\controller\SQLI.java">
+<violation beginline="11" endline="11" begincolumn="1" endcolumn="50" rule="UnnecessaryImport" ruleset="Code Style" package="org.joychou.controller" class="SQLI" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'org.springframework.web.bind.annotation.*'
+</violation>
+<violation beginline="51" endline="51" begincolumn="19" endcolumn="32" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="SQLI" method="jdbc_sqli_vul" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'jdbc_sqli_vul' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="57" endline="57" begincolumn="24" endcolumn="27" rule="CloseResource" ruleset="Error Prone" package="org.joychou.controller" class="SQLI" method="jdbc_sqli_vul" variable="con" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="60" endline="60" begincolumn="17" endcolumn="73" rule="ControlStatementBraces" ruleset="Code Style" package="org.joychou.controller" class="SQLI" method="jdbc_sqli_vul" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="63" endline="63" begincolumn="23" endcolumn="32" rule="CloseResource" ruleset="Error Prone" package="org.joychou.controller" class="SQLI" method="jdbc_sqli_vul" variable="statement" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this Statement object are closed after use
+</violation>
+<violation beginline="66" endline="66" begincolumn="23" endcolumn="25" rule="CloseResource" ruleset="Error Prone" package="org.joychou.controller" class="SQLI" method="jdbc_sqli_vul" variable="rs" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this ResultSet object are closed after use
+</violation>
+<violation beginline="69" endline="69" begincolumn="24" endcolumn="32" rule="LocalVariableNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="SQLI" method="jdbc_sqli_vul" variable="res_name" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The local variable name 'res_name' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="70" endline="70" begincolumn="24" endcolumn="31" rule="LocalVariableNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="SQLI" method="jdbc_sqli_vul" variable="res_pwd" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The local variable name 'res_pwd' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="82" endline="82" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="SQLI" method="jdbc_sqli_vul" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="95" endline="95" begincolumn="19" endcolumn="32" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="SQLI" method="jdbc_sqli_sec" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'jdbc_sqli_sec' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="100" endline="100" begincolumn="24" endcolumn="27" rule="CloseResource" ruleset="Error Prone" package="org.joychou.controller" class="SQLI" method="jdbc_sqli_sec" variable="con" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="103" endline="103" begincolumn="17" endcolumn="76" rule="ControlStatementBraces" ruleset="Code Style" package="org.joychou.controller" class="SQLI" method="jdbc_sqli_sec" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="107" endline="107" begincolumn="31" endcolumn="33" rule="CloseResource" ruleset="Error Prone" package="org.joychou.controller" class="SQLI" method="jdbc_sqli_sec" variable="st" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this PreparedStatement object are closed after use
+</violation>
+<violation beginline="110" endline="110" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="SQLI" method="jdbc_sqli_sec" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="111" endline="111" begincolumn="23" endcolumn="25" rule="CloseResource" ruleset="Error Prone" package="org.joychou.controller" class="SQLI" method="jdbc_sqli_sec" variable="rs" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this ResultSet object are closed after use
+</violation>
+<violation beginline="114" endline="114" begincolumn="24" endcolumn="32" rule="LocalVariableNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="SQLI" method="jdbc_sqli_sec" variable="res_name" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The local variable name 'res_name' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="115" endline="115" begincolumn="24" endcolumn="31" rule="LocalVariableNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="SQLI" method="jdbc_sqli_sec" variable="res_pwd" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The local variable name 'res_pwd' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="128" endline="128" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="SQLI" method="jdbc_sqli_sec" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\controller\SSRF.java">
+<violation beginline="9" endline="9" begincolumn="1" endcolumn="50" rule="UnnecessaryImport" ruleset="Code Style" package="org.joychou.controller" class="SSRF" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'org.springframework.web.bind.annotation.*'
+</violation>
+<violation beginline="37" endline="37" begincolumn="19" endcolumn="36" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="SSRF" method="URLConnectionVuln" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'URLConnectionVuln' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="43" endline="43" begincolumn="19" endcolumn="35" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="SSRF" method="URLConnectionSec" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'URLConnectionSec' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="125" endline="125" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="SSRF" method="openStream" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="142" endline="142" begincolumn="19" endcolumn="26" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="SSRF" method="ImageIO" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'ImageIO' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="178" endline="178" begincolumn="19" endcolumn="29" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="SSRF" method="HttpClient" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'HttpClient' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="219" endline="219" begincolumn="19" endcolumn="24" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="SSRF" method="Jsoup" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'Jsoup' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="240" endline="240" begincolumn="19" endcolumn="26" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="SSRF" method="IOUtils" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'IOUtils' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="259" endline="259" begincolumn="19" endcolumn="34" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="SSRF" method="HttpSyncClients" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'HttpSyncClients' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\controller\SpEL.java">
+<violation beginline="6" endline="6" begincolumn="1" endcolumn="63" rule="UnnecessaryImport" ruleset="Code Style" package="org.joychou.controller" class="SpEL" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'org.springframework.web.bind.annotation.RequestMapping'
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\controller\Test.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="50" rule="UnnecessaryImport" ruleset="Code Style" package="org.joychou.controller" class="Test" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'org.springframework.stereotype.Controller'
+</violation>
+<violation beginline="5" endline="5" begincolumn="1" endcolumn="61" rule="UnnecessaryImport" ruleset="Code Style" package="org.joychou.controller" class="Test" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'org.springframework.web.bind.annotation.ResponseBody'
+</violation>
+<violation beginline="15" endline="15" begincolumn="20" endcolumn="33" rule="UnnecessaryAnnotationValueElement" ruleset="Code Style" package="org.joychou.controller" class="Test" method="Index" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement" priority="3">
+Avoid the use of value in annotations when its the only element
+</violation>
+<violation beginline="16" endline="16" begincolumn="19" endcolumn="24" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="Test" method="Index" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'Index' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="27" endline="27" begincolumn="20" endcolumn="35" rule="UnnecessaryAnnotationValueElement" ruleset="Code Style" package="org.joychou.controller" class="Test" method="test" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement" priority="3">
+Avoid the use of value in annotations when its the only element
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\controller\URLRedirect.java">
+<violation beginline="83" endline="83" begincolumn="17" endcolumn="37" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="URLRedirect" method="sendRedirect_seccode" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'sendRedirect_seccode' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\controller\URLWhiteList.java">
+<violation beginline="7" endline="7" begincolumn="1" endcolumn="50" rule="UnnecessaryImport" ruleset="Code Style" package="org.joychou.controller" class="URLWhiteList" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'org.springframework.web.bind.annotation.*'
+</violation>
+<violation beginline="97" endline="97" begincolumn="19" endcolumn="29" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="URLWhiteList" method="url_bypass" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'url_bypass' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="99" endline="99" begincolumn="9" endcolumn="37" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="URLWhiteList" method="url_bypass" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="107" endline="107" begincolumn="9" endcolumn="39" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="URLWhiteList" method="url_bypass" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="151" endline="151" begincolumn="19" endcolumn="36" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="URLWhiteList" method="sec_array_indexOf" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'sec_array_indexOf' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="154" endline="154" begincolumn="9" endcolumn="26" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.controller" class="URLWhiteList" method="sec_array_indexOf" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\controller\XXE.java">
+<violation beginline="7" endline="7" begincolumn="1" endcolumn="50" rule="UnnecessaryImport" ruleset="Code Style" package="org.joychou.controller" class="XXE" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'org.springframework.web.bind.annotation.*'
+</violation>
+<violation beginline="53" endline="53" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="XXE" method="xmlReaderVuln" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="74" endline="74" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="XXE" method="xmlReaderSec" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="83" endline="83" begincolumn="19" endcolumn="33" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="XXE" method="SAXBuilderVuln" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'SAXBuilderVuln' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="93" endline="93" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="XXE" method="SAXBuilderVuln" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="99" endline="99" begincolumn="19" endcolumn="32" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="XXE" method="SAXBuilderSec" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'SAXBuilderSec' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="112" endline="112" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="XXE" method="SAXBuilderSec" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="120" endline="120" begincolumn="19" endcolumn="32" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="XXE" method="SAXReaderVuln" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'SAXReaderVuln' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="130" endline="130" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="XXE" method="SAXReaderVuln" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="138" endline="138" begincolumn="19" endcolumn="31" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="XXE" method="SAXReaderSec" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'SAXReaderSec' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="150" endline="150" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="XXE" method="SAXReaderSec" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="157" endline="157" begincolumn="19" endcolumn="32" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="XXE" method="SAXParserVuln" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'SAXParserVuln' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="168" endline="168" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="XXE" method="SAXParserVuln" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="175" endline="175" begincolumn="19" endcolumn="31" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="XXE" method="SAXParserSec" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'SAXParserSec' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="187" endline="187" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="XXE" method="SAXParserSec" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="195" endline="195" begincolumn="19" endcolumn="31" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="XXE" method="DigesterVuln" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'DigesterVuln' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="203" endline="203" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="XXE" method="DigesterVuln" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="210" endline="210" begincolumn="19" endcolumn="30" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="XXE" method="DigesterSec" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'DigesterSec' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="223" endline="223" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="XXE" method="DigesterSec" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="231" endline="231" begincolumn="19" endcolumn="40" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="XXE" method="DocumentBuilderVuln01" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'DocumentBuilderVuln01' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="237" endline="237" begincolumn="26" endcolumn="28" rule="CloseResource" ruleset="Error Prone" package="org.joychou.controller" class="XXE" method="DocumentBuilderVuln01" variable="sr" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this StringReader object are closed after use
+</violation>
+<violation beginline="255" endline="255" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="XXE" method="DocumentBuilderVuln01" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="263" endline="263" begincolumn="19" endcolumn="40" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="XXE" method="DocumentBuilderVuln02" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'DocumentBuilderVuln02' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="270" endline="270" begincolumn="26" endcolumn="28" rule="CloseResource" ruleset="Error Prone" package="org.joychou.controller" class="XXE" method="DocumentBuilderVuln02" variable="sr" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this StringReader object are closed after use
+</violation>
+<violation beginline="291" endline="291" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="XXE" method="DocumentBuilderVuln02" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="298" endline="298" begincolumn="19" endcolumn="37" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="XXE" method="DocumentBuilderSec" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'DocumentBuilderSec' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="308" endline="308" begincolumn="26" endcolumn="28" rule="CloseResource" ruleset="Error Prone" package="org.joychou.controller" class="XXE" method="DocumentBuilderSec" variable="sr" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this StringReader object are closed after use
+</violation>
+<violation beginline="313" endline="313" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="XXE" method="DocumentBuilderSec" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="321" endline="321" begincolumn="19" endcolumn="46" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="XXE" method="DocumentBuilderXincludeVuln" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'DocumentBuilderXincludeVuln' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="330" endline="330" begincolumn="26" endcolumn="28" rule="CloseResource" ruleset="Error Prone" package="org.joychou.controller" class="XXE" method="DocumentBuilderXincludeVuln" variable="sr" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this StringReader object are closed after use
+</violation>
+<violation beginline="340" endline="340" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="XXE" method="DocumentBuilderXincludeVuln" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="347" endline="347" begincolumn="19" endcolumn="45" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="XXE" method="DocumentBuilderXincludeSec" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'DocumentBuilderXincludeSec' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="360" endline="360" begincolumn="26" endcolumn="28" rule="CloseResource" ruleset="Error Prone" package="org.joychou.controller" class="XXE" method="DocumentBuilderXincludeSec" variable="sr" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this StringReader object are closed after use
+</violation>
+<violation beginline="369" endline="369" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="XXE" method="DocumentBuilderXincludeSec" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="377" endline="377" begincolumn="19" endcolumn="32" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="XXE" method="XMLReaderVuln" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'XMLReaderVuln' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="388" endline="388" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="XXE" method="XMLReaderVuln" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="397" endline="397" begincolumn="19" endcolumn="31" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="XXE" method="XMLReaderSec" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'XMLReaderSec' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="411" endline="411" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="XXE" method="XMLReaderSec" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="423" endline="423" begincolumn="19" endcolumn="33" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller" class="XXE" method="DocumentHelper" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'DocumentHelper' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="428" endline="428" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="XXE" method="DocumentHelper" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="443" endline="443" begincolumn="17" endcolumn="67" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.controller" class="XXE" method="response" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="449" endline="450" begincolumn="45" endcolumn="6" rule="UncommentedEmptyMethodBody" ruleset="Documentation" package="org.joychou.controller" class="XXE" method="main" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_documentation.html#uncommentedemptymethodbody" priority="3">
+Document empty method body
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\controller\othervulns\ooxmlXXE.java">
+<violation beginline="31" endline="31" begincolumn="8" endcolumn="13" rule="ClassNamingConventions" ruleset="Code Style" package="org.joychou.controller.othervulns" class="ooxmlXXE" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The class name 'ooxmlXXE' doesn't match '[A-Z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="45" endline="45" begincolumn="19" endcolumn="28" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller.othervulns" class="ooxmlXXE" method="ooxml_xxe" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'ooxml_xxe' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\controller\othervulns\xlsxStreamerXXE.java">
+<violation beginline="4" endline="4" begincolumn="1" endcolumn="45" rule="UnnecessaryImport" ruleset="Code Style" package="org.joychou.controller.othervulns" class="xlsxStreamerXXE" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'org.apache.poi.ss.usermodel.Workbook'
+</violation>
+<violation beginline="26" endline="26" begincolumn="8" endcolumn="13" rule="ClassNamingConventions" ruleset="Code Style" package="org.joychou.controller.othervulns" class="xlsxStreamerXXE" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The class name 'xlsxStreamerXXE' doesn't match '[A-Z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="36" endline="36" begincolumn="17" endcolumn="34" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.controller.othervulns" class="xlsxStreamerXXE" method="xllx_streamer_xxe" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'xllx_streamer_xxe' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="42" endline="42" begincolumn="40" endcolumn="73" rule="UselessParentheses" ruleset="Code Style" package="org.joychou.controller.othervulns" class="xlsxStreamerXXE" method="main" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\filter\OriginFilter.java">
+<violation beginline="4" endline="4" begincolumn="1" endcolumn="24" rule="UnnecessaryImport" ruleset="Code Style" package="org.joychou.filter" class="OriginFilter" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'javax.servlet.*'
+</violation>
+<violation beginline="24" endline="26" begincolumn="73" endcolumn="6" rule="UncommentedEmptyMethodBody" ruleset="Documentation" package="org.joychou.filter" class="OriginFilter" method="init" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_documentation.html#uncommentedemptymethodbody" priority="3">
+Document empty method body
+</violation>
+<violation beginline="38" endline="38" begincolumn="9" endcolumn="91" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.filter" class="OriginFilter" method="doFilter" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="42" endline="43" begincolumn="13" endcolumn="65" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.filter" class="OriginFilter" method="doFilter" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="57" endline="59" begincolumn="27" endcolumn="6" rule="UncommentedEmptyMethodBody" ruleset="Documentation" package="org.joychou.filter" class="OriginFilter" method="destroy" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_documentation.html#uncommentedemptymethodbody" priority="3">
+Document empty method body
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\filter\ReferFilter.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="24" rule="UnnecessaryImport" ruleset="Code Style" package="org.joychou.filter" class="ReferFilter" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'javax.servlet.*'
+</violation>
+<violation beginline="28" endline="30" begincolumn="73" endcolumn="6" rule="UncommentedEmptyMethodBody" ruleset="Documentation" package="org.joychou.filter" class="ReferFilter" method="init" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_documentation.html#uncommentedemptymethodbody" priority="3">
+Document empty method body
+</violation>
+<violation beginline="68" endline="69" begincolumn="17" endcolumn="48" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.filter" class="ReferFilter" method="doFilter" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="82" endline="84" begincolumn="27" endcolumn="6" rule="UncommentedEmptyMethodBody" ruleset="Documentation" package="org.joychou.filter" class="ReferFilter" method="destroy" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_documentation.html#uncommentedemptymethodbody" priority="3">
+Document empty method body
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\imageConfig.java">
+<violation beginline="11" endline="11" begincolumn="8" endcolumn="13" rule="ClassNamingConventions" ruleset="Code Style" package="org.joychou" class="imageConfig" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The class name 'imageConfig' doesn't match '[A-Z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\mapper\UserMapper.java">
+<violation beginline="28" endline="28" begincolumn="10" endcolumn="25" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.mapper" class="UserMapper" method="OrderByUsername" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'OrderByUsername' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\security\AntObjectInputStream.java">
+<violation beginline="37" endline="37" begincolumn="9" endcolumn="61" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security" class="AntObjectInputStream" method="resolveClass" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="58" endline="58" begincolumn="26" endcolumn="29" rule="CloseResource" ruleset="Error Prone" package="org.joychou.security" class="AntObjectInputStream" method="main" variable="fos" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this FileOutputStream object are closed after use
+</violation>
+<violation beginline="59" endline="59" begincolumn="28" endcolumn="30" rule="CloseResource" ruleset="Error Prone" package="org.joychou.security" class="AntObjectInputStream" method="main" variable="os" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this ObjectOutputStream object are closed after use
+</violation>
+<violation beginline="66" endline="66" begincolumn="25" endcolumn="28" rule="CloseResource" ruleset="Error Prone" package="org.joychou.security" class="AntObjectInputStream" method="main" variable="fis" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this FileInputStream object are closed after use
+</violation>
+<violation beginline="67" endline="67" begincolumn="30" endcolumn="33" rule="CloseResource" ruleset="Error Prone" package="org.joychou.security" class="AntObjectInputStream" method="main" variable="ois" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this AntObjectInputStream object are closed after use
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\security\CsrfAccessDeniedHandler.java">
+<violation beginline="27" endline="28" begincolumn="9" endcolumn="61" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security" class="CsrfAccessDeniedHandler" method="handle" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\security\CustomCorsProcessor.java">
+<violation beginline="44" endline="44" begincolumn="13" endcolumn="59" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security" class="CustomCorsProcessor" method="customCheckOrigin" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="47" endline="47" begincolumn="9" endcolumn="55" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security" class="CustomCorsProcessor" method="customCheckOrigin" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\security\DisableSpringSecurityFirewall.java">
+<violation beginline="18" endline="19" begincolumn="33" endcolumn="14" rule="UncommentedEmptyMethodBody" ruleset="Documentation" package="org.joychou.security" method="reset" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_documentation.html#uncommentedemptymethodbody" priority="3">
+Document empty method body
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\security\LoginFailureHandler.java">
+<violation beginline="24" endline="26" begincolumn="9" endcolumn="68" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security" class="LoginFailureHandler" method="onAuthenticationFailure" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\security\LoginSuccessHandler.java">
+<violation beginline="29" endline="29" begincolumn="9" endcolumn="76" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security" class="LoginSuccessHandler" method="onAuthenticationSuccess" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="36" endline="36" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security" class="LoginSuccessHandler" method="onAuthenticationSuccess" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="40" endline="40" begincolumn="13" endcolumn="58" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security" class="LoginSuccessHandler" method="onAuthenticationSuccess" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\security\SecurityUtil.java">
+<violation beginline="18" endline="18" begincolumn="8" endcolumn="13" rule="UseUtilityClass" ruleset="Design" package="org.joychou.security" class="SecurityUtil" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_design.html#useutilityclass" priority="3">
+This utility class has a non-private constructor
+</violation>
+<violation beginline="44" endline="44" begincolumn="20" endcolumn="47" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="org.joychou.security" class="SecurityUtil" method="gethost" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="64" endline="64" begincolumn="9" endcolumn="26" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.security" class="SecurityUtil" method="checkURL" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="65" endline="65" begincolumn="9" endcolumn="26" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.security" class="SecurityUtil" method="checkURL" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="98" endline="98" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security" class="SecurityUtil" method="checkURL" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="146" endline="148" begincolumn="9" endcolumn="10" rule="SimplifyBooleanReturns" ruleset="Design" package="org.joychou.security" class="SecurityUtil" method="checkSSRFWithoutRedirect" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_design.html#simplifybooleanreturns" priority="3">
+This if statement can be replaced by `return !{condition} || {elseBranch};`
+</violation>
+<violation beginline="186" endline="186" begincolumn="17" endcolumn="76" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security" class="SecurityUtil" method="pathFilter" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="189" endline="189" begincolumn="17" endcolumn="43" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security" class="SecurityUtil" method="pathFilter" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="233" endline="233" begincolumn="15" endcolumn="32" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="org.joychou.security" class="SecurityUtil" method="replaceSpecialStr" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="252" endline="253" begincolumn="44" endcolumn="6" rule="UncommentedEmptyMethodBody" ruleset="Documentation" package="org.joychou.security" class="SecurityUtil" method="main" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_documentation.html#uncommentedemptymethodbody" priority="3">
+Document empty method body
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\security\WebSecurityConfig.java">
+<violation beginline="46" endline="46" begincolumn="13" endcolumn="28" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.security" method="matches" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'HashSet'; use the interface instead
+</violation>
+<violation beginline="48" endline="50" begincolumn="13" endcolumn="14" rule="SimplifyBooleanReturns" ruleset="Design" package="org.joychou.security" method="matches" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_design.html#simplifybooleanreturns" priority="3">
+This if statement can be replaced by `return !{condition} || {elseBranch};`
+</violation>
+<violation beginline="88" endline="88" begincolumn="9" endcolumn="26" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.security" class="WebSecurityConfig" method="corsConfigurationSource" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\security\ssrf\SSRFChecker.java">
+<violation beginline="17" endline="17" begincolumn="8" endcolumn="13" rule="UseUtilityClass" ruleset="Design" package="org.joychou.security.ssrf" class="SSRFChecker" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_design.html#useutilityclass" priority="3">
+This utility class has a non-private constructor
+</violation>
+<violation beginline="26" endline="26" begincolumn="9" endcolumn="26" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SSRFChecker" method="checkURLFckSSRF" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="44" endline="44" begincolumn="13" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SSRFChecker" method="checkURLFckSSRF" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="69" endline="69" begincolumn="21" endcolumn="87" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SSRFChecker" method="checkSSRF" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="83" endline="83" begincolumn="25" endcolumn="31" rule="ControlStatementBraces" ruleset="Code Style" package="org.joychou.security.ssrf" class="SSRFChecker" method="checkSSRF" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="86" endline="86" begincolumn="21" endcolumn="64" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SSRFChecker" method="checkSSRF" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="91" endline="91" begincolumn="21" endcolumn="27" rule="ControlStatementBraces" ruleset="Code Style" package="org.joychou.security.ssrf" class="SSRFChecker" method="checkSSRF" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="109" endline="109" begincolumn="13" endcolumn="28" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SSRFChecker" method="isInternalIpByUrl" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="114" endline="116" begincolumn="9" endcolumn="10" rule="SimplifyBooleanReturns" ruleset="Design" package="org.joychou.security.ssrf" class="SSRFChecker" method="isInternalIpByUrl" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_design.html#simplifybooleanreturns" priority="3">
+This if statement can be replaced by `return {condition} || {elseBranch};`
+</violation>
+<violation beginline="114" endline="114" begincolumn="13" endcolumn="26" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SSRFChecker" method="isInternalIpByUrl" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="130" endline="130" begincolumn="13" endcolumn="74" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SSRFChecker" method="isInternalIp" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="134" endline="134" begincolumn="9" endcolumn="26" rule="LooseCoupling" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SSRFChecker" method="isInternalIp" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="138" endline="138" begincolumn="17" endcolumn="78" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SSRFChecker" method="isInternalIp" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="157" endline="157" begincolumn="25" endcolumn="34" rule="LocalVariableNamingConventions" ruleset="Code Style" package="org.joychou.security.ssrf" class="SSRFChecker" method="host2ip" variable="IpAddress" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The local variable name 'IpAddress' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\security\ssrf\SocketHook.java">
+<violation beginline="13" endline="13" begincolumn="8" endcolumn="13" rule="UseUtilityClass" ruleset="Design" package="org.joychou.security.ssrf" class="SocketHook" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_design.html#useutilityclass" priority="3">
+This utility class has a non-private constructor
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\security\ssrf\SocketHookFactory.java">
+<violation beginline="42" endline="42" begincolumn="16" endcolumn="22" rule="CloseResource" ruleset="Error Prone" package="org.joychou.security.ssrf" class="SocketHookFactory" method="initSocket" variable="socket" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this Socket object are closed after use
+</violation>
+<violation beginline="46" endline="46" begincolumn="13" endcolumn="42" rule="AvoidAccessibilityAlteration" ruleset="Error Prone" package="org.joychou.security.ssrf" class="SocketHookFactory" method="initSocket" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#avoidaccessibilityalteration" priority="3">
+You should not modify visibility of constructors, methods or fields using setAccessible()
+</violation>
+<violation beginline="54" endline="54" begincolumn="19" endcolumn="70" rule="PreserveStackTrace" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SocketHookFactory" method="initSocket" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#preservestacktrace" priority="3">
+Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+</violation>
+<violation beginline="65" endline="65" begincolumn="23" endcolumn="39" rule="MissingOverride" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SocketHookFactory" method="createSocketImpl" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'createSocketImpl()' is missing an @Override annotation.
+</violation>
+<violation beginline="75" endline="75" begincolumn="21" endcolumn="49" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SocketHookFactory" method="createSocketImpl" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="82" endline="82" begincolumn="17" endcolumn="44" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SocketHookFactory" method="createSocketImpl" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\security\ssrf\SocketHookImpl.java">
+<violation beginline="45" endline="45" begincolumn="9" endcolumn="19" rule="AssignmentToNonFinalStatic" ruleset="Error Prone" package="org.joychou.security.ssrf" class="SocketHookImpl" method="SocketHookImpl" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#assignmenttononfinalstatic" priority="3">
+Possible unsafe assignment to non-final static field 'socketImpl' in a constructor.
+</violation>
+<violation beginline="89" endline="89" begincolumn="13" endcolumn="41" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SocketHookImpl" method="create" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="97" endline="97" begincolumn="9" endcolumn="58" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SocketHookImpl" method="connect" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="101" endline="101" begincolumn="13" endcolumn="41" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SocketHookImpl" method="connect" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="110" endline="110" begincolumn="9" endcolumn="59" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SocketHookImpl" method="connect" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="118" endline="118" begincolumn="13" endcolumn="41" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SocketHookImpl" method="connect" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="130" endline="130" begincolumn="9" endcolumn="97" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SocketHookImpl" method="connect" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="139" endline="139" begincolumn="13" endcolumn="41" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SocketHookImpl" method="connect" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="149" endline="149" begincolumn="13" endcolumn="41" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SocketHookImpl" method="bind" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="159" endline="159" begincolumn="13" endcolumn="41" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SocketHookImpl" method="listen" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="169" endline="169" begincolumn="13" endcolumn="41" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SocketHookImpl" method="accept" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="181" endline="181" begincolumn="13" endcolumn="41" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SocketHookImpl" method="getInputStream" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="195" endline="195" begincolumn="13" endcolumn="41" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SocketHookImpl" method="getOutputStream" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="209" endline="209" begincolumn="13" endcolumn="41" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SocketHookImpl" method="available" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="220" endline="220" begincolumn="13" endcolumn="41" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SocketHookImpl" method="close" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="229" endline="229" begincolumn="13" endcolumn="41" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SocketHookImpl" method="shutdownInput" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="239" endline="239" begincolumn="13" endcolumn="41" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SocketHookImpl" method="shutdownOutput" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="249" endline="249" begincolumn="13" endcolumn="41" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SocketHookImpl" method="sendUrgentData" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="253" endline="253" begincolumn="17" endcolumn="26" rule="MissingOverride" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SocketHookImpl" method="setOption" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'setOption(int, Object)' is missing an @Override annotation.
+</violation>
+<violation beginline="259" endline="259" begincolumn="19" endcolumn="28" rule="MissingOverride" ruleset="Best Practices" package="org.joychou.security.ssrf" class="SocketHookImpl" method="getOption" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'getOption(int)' is missing an @Override annotation.
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\security\ssrf\SocketHookUtils.java">
+<violation beginline="5" endline="5" begincolumn="1" endcolumn="6" rule="UseUtilityClass" ruleset="Design" package="org.joychou.security.ssrf" class="SocketHookUtils" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_design.html#useutilityclass" priority="3">
+This utility class has a non-private constructor
+</violation>
+<violation beginline="18" endline="18" begincolumn="17" endcolumn="43" rule="AvoidAccessibilityAlteration" ruleset="Error Prone" package="org.joychou.security.ssrf" class="SocketHookUtils" method="findMethod" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#avoidaccessibilityalteration" priority="3">
+You should not modify visibility of constructors, methods or fields using setAccessible()
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\util\HttpUtils.java">
+<violation beginline="8" endline="8" begincolumn="1" endcolumn="52" rule="UnnecessaryImport" ruleset="Code Style" package="org.joychou.util" class="HttpUtils" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'org.apache.http.client.config.RequestConfig'
+</violation>
+<violation beginline="34" endline="34" begincolumn="8" endcolumn="13" rule="UseUtilityClass" ruleset="Design" package="org.joychou.util" class="HttpUtils" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_design.html#useutilityclass" priority="3">
+This utility class has a non-private constructor
+</violation>
+<violation beginline="77" endline="77" begincolumn="28" endcolumn="30" rule="CloseResource" ruleset="Error Prone" package="org.joychou.util" class="HttpUtils" method="httpClient" variable="rd" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this BufferedReader object are closed after use
+</violation>
+<violation beginline="92" endline="92" begincolumn="26" endcolumn="39" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.util" class="HttpUtils" method="URLConnection" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The static method name 'URLConnection' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="96" endline="96" begincolumn="28" endcolumn="30" rule="CloseResource" ruleset="Error Prone" package="org.joychou.util" class="HttpUtils" method="URLConnection" variable="in" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this BufferedReader object are closed after use
+</violation>
+<violation beginline="107" endline="107" begincolumn="13" endcolumn="42" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.util" class="HttpUtils" method="URLConnection" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="113" endline="113" begincolumn="26" endcolumn="43" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.util" class="HttpUtils" method="HTTPURLConnection" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The static method name 'HTTPURLConnection' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="118" endline="118" begincolumn="28" endcolumn="30" rule="CloseResource" ruleset="Error Prone" package="org.joychou.util" class="HttpUtils" method="HTTPURLConnection" variable="in" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this BufferedReader object are closed after use
+</violation>
+<violation beginline="128" endline="128" begincolumn="13" endcolumn="42" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.util" class="HttpUtils" method="HTTPURLConnection" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="139" endline="139" begincolumn="26" endcolumn="31" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.util" class="HttpUtils" method="Jsoup" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The static method name 'Jsoup' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="161" endline="161" begincolumn="37" endcolumn="44" rule="LocalVariableNamingConventions" ruleset="Code Style" package="org.joychou.util" class="HttpUtils" method="okhttp" variable="ok_http" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The local variable name 'ok_http' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="171" endline="171" begincolumn="13" endcolumn="42" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.util" class="HttpUtils" method="imageIO" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="183" endline="183" begincolumn="24" endcolumn="31" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.util" class="HttpUtils" method="IOUtils" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The static method name 'IOUtils' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="187" endline="187" begincolumn="13" endcolumn="42" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.util" class="HttpUtils" method="IOUtils" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="192" endline="192" begincolumn="26" endcolumn="42" rule="MethodNamingConventions" ruleset="Code Style" package="org.joychou.util" class="HttpUtils" method="HttpAsyncClients" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The static method name 'HttpAsyncClients' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="206" endline="206" begincolumn="17" endcolumn="46" rule="GuardLogStatement" ruleset="Best Practices" package="org.joychou.util" class="HttpUtils" method="HttpAsyncClients" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\util\LoginUtils.java">
+<violation beginline="10" endline="10" begincolumn="8" endcolumn="13" rule="UseUtilityClass" ruleset="Design" package="org.joychou.util" class="LoginUtils" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_design.html#useutilityclass" priority="3">
+This utility class has a non-private constructor
+</violation>
+</file>
+<file name=".\src\main\java\org\joychou\util\WebUtils.java">
+<violation beginline="12" endline="12" begincolumn="8" endcolumn="13" rule="UseUtilityClass" ruleset="Design" package="org.joychou.util" class="WebUtils" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_design.html#useutilityclass" priority="3">
+This utility class has a non-private constructor
+</violation>
+<violation beginline="22" endline="22" begincolumn="48" endcolumn="67" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.joychou.util" class="WebUtils" method="convertStreamToString" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary qualifier 'java.io': 'InputStream' is already in scope because it is imported in this file
+</violation>
+<violation beginline="40" endline="40" begincolumn="27" endcolumn="47" rule="UselessParentheses" ruleset="Code Style" package="org.joychou.util" class="WebUtils" method="getFileExtension" variable="fileName" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="48" endline="48" begincolumn="27" endcolumn="43" rule="UselessParentheses" ruleset="Code Style" package="org.joychou.util" class="WebUtils" method="getNameWithoutExtension" variable="fileName" externalInfoUrl="https://pmd.github.io/pmd-7.0.0-rc1/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+</pmd>
